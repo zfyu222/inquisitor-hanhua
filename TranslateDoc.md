@@ -69,6 +69,22 @@ python .\import_translation.py .\inquisitor_text_translated.csv --check
 
 通用技能校验命令可作额外参考，但会把可见 New Save 误当 XML，且默认换行修复会改动本项目唯一的合法 CRLF；**本项目以专用严格校验为准，不盲目使用 `--fix-newlines`**。
 
+## 使用审校后的项目术语表
+
+2026-10-12 已检查本项目缓存 `AiNieeCache/AinieeCacheData.json` 中的 `extra.analysis_v1`。报告见 `glossary_review.md`；原始快照、审校结果和逐项修改分别为 `glossary_original.json`、`glossary_reviewed.json`、`glossary_review_changes.json`。审校结果共 1,839 条，44 条有疑问的原条目暂未启用。
+
+这是 AINiee 的**项目分析表**，不能将该 JSON 直接导入「全局术语表」。当前活动缓存保持原状。先正常退出 AINiee，让它保存当前进度，再运行：
+
+```powershell
+Set-Location D:\StaticHanHua\Projects\inquisitor
+python .\apply_reviewed_glossary.py
+python .\apply_reviewed_glossary.py --apply
+```
+
+第一条只检查；第二条会拒绝在 AINiee 运行或原表已变化时应用。通过检查后，在 `AiNieeCache/glossary_review_backups/` 备份完整缓存，再仅替换 `extra.analysis_v1`，保留输入、翻译结果与进度。重新打开 AINiee 并加载本项目，检查「全文分析」表中的新译名。已生成的译文不会自动按新术语重写；需要另行检查旧译文。备份和缓存不纳入 Git。
+
+重新运行全文分析可能覆盖人工审校结果，操作前应保留审校版。44 条隔离项不是禁翻表，不会强制跳过相应正文；其中部分可能是源文拼写变体，待核实后再加入。
+
 ## 当前边界
 
 资源提取与翻译准备完成，尚未执行实际翻译。默认由你在 AINiee 界面启动任务。本阶段未修改游戏文件，也未进行中文字体或游戏内显示验证。地图二进制、图片内文字及 EXE 硬编码文字尚未确认完整覆盖；正式回填前还需检查运行时补丁优先级、中文字体及 CharConvert 字符转换表。

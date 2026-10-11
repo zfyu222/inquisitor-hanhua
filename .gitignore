@@ -4,6 +4,8 @@
 # 解压原始游戏资源与 AI 输出，不纳入汉化工程版本控制
 /extracted/
 /ainiee_output/
+/AiNieeCache/
+/AiNieeOutput/
 
 # 备份与中间产物
 *.bak
