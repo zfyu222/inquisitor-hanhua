@@ -1,0 +1,27 @@
+[
+  {
+    "markers": "",
+    "info": "DRPK 完整美元变量（含双美元边界与冒号参数）",
+    "regex": "\\$\\$[^$\\r\\n]+\\$\\$"
+  },
+  {
+    "markers": "",
+    "info": "printf 参数与百分号",
+    "regex": "%(?:\\d+\\$)?[0-9.+#-]*[sdfoxXeEfgGcr%]|%"
+  },
+  {
+    "markers": "",
+    "info": "字面转义：保留全部反斜杠",
+    "regex": "\\\\+[nrt]"
+  },
+  {
+    "markers": "",
+    "info": "转义尖括号边界；内部 New Save 需要翻译",
+    "regex": "\\\\[<>]"
+  },
+  {
+    "markers": "",
+    "info": "源文真实换行（仅一条 CRLF）",
+    "regex": "\\r\\n|\\r|\\n"
+  }
+]

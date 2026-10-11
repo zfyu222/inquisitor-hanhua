@@ -47,10 +47,13 @@
 - 未宣称全文覆盖：地图二进制/图片文字/EXE 硬编码显示文本尚未完成核实。抽查 01_levels.dat 为 MAP/MPSC/LGFX 二进制资源。
 
 ## 翻译
-- 译文输出：`inquisitor_text_translated.csv`，与原文逐条对应。
-- 词典：待建立，优先统一职业、宗教称谓、人名、地名、法术与物品术语。
-- 策略：提取后使用 game-translate 分析占位符、生成禁翻表与 TranslateDoc.md；默认由用户在 AINiee 完成实际翻译。
-- 校验：尚未执行。
+- 当前完成的是翻译准备：`TranslateDoc.md`、`placeholder_report.md`、`ainiee_exclusion_list.json`、`translation_prompt.txt` 已生成。实际翻译由用户在 AINiee 执行，接口与模型待选。
+- AINiee 导入文件：`inquisitor_ainiee_input.csv`（增加 source 表头，避免本地 CsvReader 漏掉第一条）；正式原文 `inquisitor_text.csv` 保持无表头。
+- 5 条人工复核保护规则：完整双美元变量、printf/百分号、保留所有反斜杠的字面转义、转义尖括号、真实 CRLF。单条最多 25 次匹配。
+- 通用分析器会误保护 New Save 并漏掉双美元变量冒号参数，已针对本项目修正；唯一真实换行在第 17,943 条，不盲目执行通用 --fix-newlines。
+- 必须开启禁翻表与自动处理文本代码段。术语建议和提示词见 TranslateDoc.md / translation_prompt.txt。
+- 译后运行 `python import_translation.py <AINiee输出CSV>`，去表头并验证数量、单列、空译文、标记及顺序、完整转义后写出 `inquisitor_text_translated.csv`；已有正式译文用 --check。
+- 校验结果：原文单列/资源映射已通过；目前未生成正式译文，译文质量与完整性尚未验证。
 
 ## 回填
 - 工具/命令：待确定。
@@ -74,3 +77,4 @@
 - 2026-10-11 - 补充 Steam 官方资料、本地构建信息、原生 PE 与 DRPK 资源线索。
 
 - 2026-10-11 - 提取 24,074 条去重原文，保留 61,204 处映射并校验源文本；游戏资源未修改。
+- 2026-10-11 - 完成 AINiee 专用导入文件、占位符保护、翻译提示词及严格译后导入工具，进入翻译阶段。

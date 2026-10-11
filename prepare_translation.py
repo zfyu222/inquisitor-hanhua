@@ -1,0 +1,43 @@
+"""Project-specific protection rules, reviewed against extracted text."""
+import csv
+import json
+import re
+from collections import Counter
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent
+RULES = [
+    ('DRPK 完整美元变量（含双美元边界与冒号参数）', r'\$\$[^$\r\n]+\$\$'),
+    ('printf 参数与百分号', r'%(?:\d+\$)?[0-9.+#-]*[sdfoxXeEfgGcr%]|%'),
+    ('字面转义：保留全部反斜杠', r'\\+[nrt]'),
+    ('转义尖括号边界；内部 New Save 需要翻译', r'\\[<>]'),
+    ('源文真实换行（仅一条 CRLF）', r'\r\n|\r|\n'),
+]
+
+
+def main():
+    rows = [r[0] for r in csv.reader((ROOT/'inquisitor_text.csv').open(encoding='utf-8-sig', newline=''))]
+    rules = [dict(markers='', info=name, regex=pattern) for name, pattern in RULES]
+    (ROOT/'ainiee_exclusion_list.json').write_text(json.dumps(rules, ensure_ascii=False, indent=2), encoding='utf-8')
+    report = ['# Inquisitor 占位符人工复核报告', '', f'- 原文逻辑记录：{len(rows)}；其中 1 条含真实 CRLF，使用合规 CSV 引号保留。',
+              '- 通用分析器结果已经复核，以下为实际采用规则。',
+              '- `\\<New Save \\>` 是玩家可见的存档菜单文字，不是 XML 标签；只保护转义边界，内部需要翻译。',
+              '- 通用美元正则会漏掉 `$$var:HracHodil$$` 的冒号参数，并将 `$$X$$d6` 的尾部错识别成 `$d6`；改为匹配完整双美元变量。',
+              '- 原文换行转义大部分为两个反斜杠加 n，少数为一个；必须逐字符保留，不能统一改为单反斜杠。', '']
+    patterns = []
+    for name, pattern in RULES:
+        p = re.compile(pattern)
+        patterns.append(p)
+        c = Counter(m[0] for t in rows for m in p.finditer(t))
+        report += [f'## {name}', '', f'- 出现次数：{sum(c.values())}', f'- 正则：`{pattern}`',
+                   '- 高频样例：'+', '.join(f'`{repr(k)}` ×{v}' for k,v in c.most_common(5)), '']
+    match_counts = [sum(len(list(p.finditer(t))) for p in patterns) for t in rows]
+    report += [f'- 单条最大保护匹配数：{max(match_counts)}（低于 AINiee 的 50 匹配上限）。',
+               '- printf 参数顺序不能改变；相同类型但不同用途的参数仍须保持原序。',
+               '- 未进行实际翻译，未生成正式译文；译后须执行项目专用严格校验。']
+    (ROOT/'placeholder_report.md').write_text('\n'.join(report)+'\n', encoding='utf-8')
+    print('Reviewed protection rules:', len(rules), 'max matches:', max(match_counts))
+
+
+if __name__ == '__main__':
+    main()
