@@ -1,0 +1,19 @@
+{
+  "references": 56968,
+  "missing": [
+    [
+      "local/dlg/nicolas_pal.dlg",
+      "86"
+    ],
+    [
+      "local/dlg/nicolas_pri.dlg",
+      "86"
+    ],
+    [
+      "local/dlg/nicolas_thi.dlg",
+      "86"
+    ]
+  ],
+  "note": "3 exact-string ID differences (86 vs 086); all have numeric-equivalent DLT IDs. Runtime ID parsing requires confirmation.",
+  "missing_numeric_ids": 0
+}
