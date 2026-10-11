@@ -23,6 +23,9 @@ def main():
     if hashlib.sha256((ROOT / 'glossary_original.json').read_bytes()).hexdigest() != reviewed['review_metadata']['original_sha256']:
         raise SystemExit('Original glossary snapshot does not match this review.')
     current = cache.get('extra', {}).get('analysis_v1')
+    if current == reviewed:
+        print('Reviewed glossary is already installed; no files changed.')
+        return
     if current != original:
         raise SystemExit('Live glossary changed since review. Re-review it before applying.')
     seen = set()

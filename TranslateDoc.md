@@ -73,7 +73,7 @@ python .\import_translation.py .\inquisitor_text_translated.csv --check
 
 2026-10-12 已检查本项目缓存 `AiNieeCache/AinieeCacheData.json` 中的 `extra.analysis_v1`。报告见 `glossary_review.md`；原始快照、审校结果和逐项修改分别为 `glossary_original.json`、`glossary_reviewed.json`、`glossary_review_changes.json`。审校结果共 1,839 条，44 条有疑问的原条目暂未启用。
 
-这是 AINiee 的**项目分析表**，不能将该 JSON 直接导入「全局术语表」。当前活动缓存保持原状。先正常退出 AINiee，让它保存当前进度，再运行：
+这是 AINiee 的**项目分析表**，不能将该 JSON 直接导入「全局术语表」。2026-10-12 已按用户要求应用并校验通过。以下命令供检查或后续重新应用；先正常退出 AINiee，让它保存当前进度，再运行：
 
 ```powershell
 Set-Location D:\StaticHanHua\Projects\inquisitor

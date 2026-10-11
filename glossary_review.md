@@ -46,6 +46,8 @@
 
 ## 使用文件
 
+应用记录（2026-10-12）：已按用户要求将审校版安装到项目缓存。原缓存备份位于 `AiNieeCache/glossary_review_backups/AinieeCacheData_20261012_011454_858451.json`；应用后验证除 `extra.analysis_v1` 外的所有缓存字段完全一致。上面的“未修改活动缓存”描述为审查完成时状态。
+
 - `glossary_original.json`：原分析表快照。
 - `glossary_reviewed.json`：可应用的项目分析表，不是全局词典格式。
 - `glossary_review_changes.json`：逐项 before/after、理由、原文记录号和摘录，以及完整隔离条目。
