@@ -1,0 +1,2 @@
+# Preserve quoted CRLF inside CSV records exactly on every platform.
+*.csv -text

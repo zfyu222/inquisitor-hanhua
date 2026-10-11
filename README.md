@@ -35,7 +35,7 @@
 | 发布 | game-release-patch | 未执行 |
 
 ## 文本提取
-- 工具：Python 3.12.10，`drpk_extract.py` 与 `extract_text.py`；Git 2.53.0.windows.1。
+- 工具：Python 3.12.10，`drpk_extract.py` 与 `extract_text.py`；QuickBMS 0.12.0 交叉校验；Git 2.53.0.windows.1。
 - 依据：[Luigi Auriemma Inquisitor BMS 脚本](https://aluigi.altervista.org/bms/inquisitor.bms)、[QuickBMS SFL 分块定义](https://github.com/LittleBigBug/QuickBMS/blob/master/src/unz.c)、[iMatix SFL 文档](https://imatix-legacy.github.io/sfl/sfldoc.htm)。格式为 DRPK、XOR 0x4A、SFL 分块；Python 实现已验证全部提取条目的解压长度。
 - 原始包：`Game/Game/01_local.dat`、`01_data.dat`、`02_patch.dat`，只读操作。解压资源在 `extracted/`，不入库。
 - 命令（在项目目录）：`python drpk_extract.py Game/Game/01_local.dat extracted/01_local`；对 01_data、02_patch 同样运行，再执行 `python extract_text.py`。
@@ -43,7 +43,7 @@
 - 文本为 UTF-16 LE BOM 的类 XML 文件；提取 1,433 份本地化资源内 61,204 处显示文本，按精确字符串去重为 **24,074 条**，总字符数 4,474,170。
 - 字段：string 59,377 处、visname 859 处、desc 469 处、text 344 处、title 114 处、NPCName 41 处。不翻译 name/id/action/cond 等逻辑字段与 CharConvert 字符表。
 - `inquisitor_text.csv`：无表头，单列 UTF-8 BOM；`text_locations.jsonl`：记录 CSV 行号、来源包、文件、标签、ID、字符区间；`extraction_report.json`：源文件 SHA-256 与统计。
-- 校验：全部输出记录通过单列读取与源资源逐位置反向核对。DLT 字符串标签完整配对检查通过。对话引用检查详见 dialogue_audit.json；Nicolas 三职业存在 86 与 086 的原始写法差异，数值 ID 对应同一条，实际引擎解析方式待回填核实。
+- 校验：全部输出记录通过单列读取与源资源逐位置反向核对；QuickBMS 0.12.0 对照 1,800 份解压文件，全部逐字节一致（extraction_crosscheck.json）。DLT 字符串标签完整配对检查通过。对话引用检查详见 dialogue_audit.json；Nicolas 三职业存在 86 与 086 的原始写法差异，数值 ID 对应同一条，实际引擎解析方式待回填核实。
 - 未宣称全文覆盖：地图二进制/图片文字/EXE 硬编码显示文本尚未完成核实。抽查 01_levels.dat 为 MAP/MPSC/LGFX 二进制资源。
 
 ## 翻译
@@ -53,7 +53,7 @@
 - 通用分析器会误保护 New Save 并漏掉双美元变量冒号参数，已针对本项目修正；唯一真实换行在第 17,943 条，不盲目执行通用 --fix-newlines。
 - 必须开启禁翻表与自动处理文本代码段。术语建议和提示词见 TranslateDoc.md / translation_prompt.txt。
 - 译后运行 `python import_translation.py <AINiee输出CSV>`，去表头并验证数量、单列、空译文、标记及顺序、完整转义后写出 `inquisitor_text_translated.csv`；已有正式译文用 --check。
-- 校验结果：原文单列/资源映射已通过；目前未生成正式译文，译文质量与完整性尚未验证。
+- 校验结果：原文单列/资源映射及 AINiee 首行对齐已通过；专用校验工具通过真实 CRLF/标记保留检查，并成功检出变量及反斜杠损坏样例；目前未生成正式译文，译文质量与完整性尚未验证。
 
 ## 回填
 - 工具/命令：待确定。
@@ -78,3 +78,4 @@
 
 - 2026-10-11 - 提取 24,074 条去重原文，保留 61,204 处映射并校验源文本；游戏资源未修改。
 - 2026-10-11 - 完成 AINiee 专用导入文件、占位符保护、翻译提示词及严格译后导入工具，进入翻译阶段。
+- 2026-10-11 - QuickBMS 对照 1,800 份资源逐字节一致；验证 AINiee 全量导入对齐及严格校验工具，CSV 禁用 Git 换行转换。
