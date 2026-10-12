@@ -1,0 +1,199 @@
+{
+  "summary": {
+    "records": 24074,
+    "strict_errors": 23,
+    "unchanged": 40,
+    "english_without_chinese": 18,
+    "input_sha256": "26ef825d7fdb88f0451cba666d8ab72dfdfb389f62ba81642d3c2e17cd3fc57a",
+    "header": "double BOM source normalized only in candidate"
+  },
+  "issues": [
+    {
+      "row": 21902,
+      "reasons": [
+        "字面转义：保留全部反斜杠"
+      ],
+      "source": "This is Edmond d'Arvias's letter to Bishop Trevorius in Glatzburg. It reads:\\\\n\\\\nDear friend,\\\\nI sincerely hope you receive this letter in kind health and fair circumstance, despite the evils plaguing us all. I would trouble you, Trevorius, to aid the bearer of this letter with an investigation of the utmost importance. Though I tremble to write the words which follow, I fear even more your disbelieving them, old friend. There has been a conspiracy in Hillbrandt to invoke the fallen angel, Arthamon—a conspiracy, I fear, which has likely succeeded. What makes the case all the more troubling is that Bishop Vallarian, who you know well from the Inquisitorial Curia of Glatzburg, has been convicted of the crime.\\\\nAs you can see, this is no petty case of hearsay heresy. Though the betrayal of an inquisitorial judge frightens me to no end, Trevorius, certain truths which have come to light bring a chill to my very soul. Though it may only be the rambling of a doomed man, Judge Vallarian left a warning for the bearer of this letter; the Children of the New Order, of which you certainly know more than I, walk the Earth again.\\\\nI would ask you to afford the bearer of this letter all possible assistance with his investigation, and to help him discover the truth behind Judge Vallarian’s betrayal. I fear more than my peace of mind hangs in the balance, old friend.\\\\nEver Yours, Edmond",
+      "translation": "这是埃德蒙·达尔维亚斯在格拉茨堡写下的致特雷维里乌斯主教的信。信上写道：\\n\\n亲爱的朋友，\\n尽管邪恶正困扰着我们所有人，我仍由衷希望你收到此信时身心康健、境遇顺遂。我要劳烦你，特雷维里乌斯，协助持信人进行一项至关重要的调查。写下接下来这些字句时我双手颤抖，老朋友，但我更害怕的是你不肯相信。希尔布兰特发生了一起召唤堕落天使阿尔萨蒙的阴谋——我担心，这阴谋恐怕已经得逞。更令此案棘手的是，你在格拉茨堡宗教裁判庭便熟知的瓦拉里安主教，已被判定犯下此罪。\\n如你所见，这绝非一桩道听途说的异端小事。尽管一名宗教裁判法官的背叛已让我恐惧万分，特雷维里乌斯，某些浮出水面的真相更令我的灵魂发寒。纵然这可能只是一个将死之人的胡言乱语，瓦拉里安法官还是给持信人留下了一句警告：新秩序之子——关于他们你自然比我更清楚——已重临世间。\\n我恳请你给予持信人一切可能的协助，帮助他查明瓦拉里安法官背叛背后的真相。老朋友，悬于一线的，远不止我一人的安宁。\\n永远属于你的，埃德蒙"
+    },
+    {
+      "row": 22190,
+      "reasons": [
+        "字面转义：保留全部反斜杠",
+        "源文真实换行（仅一条 CRLF）"
+      ],
+      "source": "A single glance at this abominable volume would likely drive a normal man insane. The book itself is bound in human flesh, and painted with scenes of the most unimaginable depravity. The scenes, painted in blood which never dries, swirl and slither across the book’s ghastly, writhing cover. If what I know of the book is true, it was written in the year 850 by the Dark Prophet, Lucius, founder of the Children of New Order. Judging from the living script, it seems to detail the rise of the fallen angels, Arthamon, Baphomet and Cerdie.\\\\n\\\\nLucius describes the rites for summoning the fallen angels in the most thorough... and sickening terms. His descriptions and instructions as to how the Children should go about committing the atrocities needed to bring Hell to Earth are terrifying, in a word. This Dark Prophet, this Lucius, could never have been a man of flesh and blood like me. The implications of that possibility are... are too frightening to even consider.\\\\n\\\\nLord protect me, there’s more. Apparently, one of the Children will be “Marked by the Beast,” and it will be his or her duty to perform the ritual necessary to bring Hell to our world:\\\\n\\\\n”Blessed are the chosen, the vessels of corruption! Carry on your person, marked champion, this tome, for through it are channeled the powers which will open the way. To open the gates of Hell, you must be willing to sacrifice. First, you must make an offering of the blood of your brow, breast, and loins. When the unclean blood has mixed at your feet, use it as ink to inscribe the drawn mark upon the gateway. Your mortal form will be consumed, for great and powerful are the fires of Hell, but your spirit will live forever among the princes of the damned, and your sacrifice will bring about the end of God’s feeble, flawed creation.”\\\\n\\\\nMay the angels forgive me for what I have read, and may God shed his mercy over me. I must end this, once and for all.",
+      "translation": "仅凭一瞥，这本可憎之书便足以令常人发疯。书本身以人类的皮肤装订，封面绘满了难以想象的堕落场景。那些场景用永不干涸的鲜血绘成，在书封可怖而蠕动的表面上盘旋滑行。若我所知属实，此书成于850年，作者是暗黑先知卢修斯——新秩序之子的创立者。从那些活生生的文字来看，书中详述了堕落天使阿尔萨蒙、巴弗灭与塞尔迪的崛起。\n\n卢修斯以最详尽……也最令人作呕的笔触，描述了召唤堕落天使的仪式。他关于新秩序之子应如何犯下那些罪行、以将地狱带入人间的描述与指示，简而言之，令人胆寒。这位暗黑先知，这个卢修斯，绝不可能是像我这样的血肉之躯。那种可能性所隐含的意味……实在太可怕，甚至不敢去想。\n\n主啊，护佑我，后面还有。据记载，新秩序之子中有一人将\"被兽标记\"，由他或她来履行仪式，将地狱带入我们的世界：\n\n\"蒙福的是被拣选者，腐化的器皿！背负这卷圣典吧，被标记的勇士，因为正是通过它，通往彼方的力量得以传导。欲开启地狱之门，你必须甘愿献祭。首先，你须以额间、胸前与腰腹之血作为祭品。当污秽之血在你脚下交融，便以它为墨，将画好的印记刻于门扉之上。你的肉身将被吞噬，因地狱之火强大而炽烈；但你的灵魂将与被诅咒的诸王永存，而你的牺牲将终结上帝那脆弱而残缺的造物。\"\n\n愿天使宽恕我所读到的一切，愿上帝将怜悯倾注于我。我必须终结这一切，一劳永逸。"
+    },
+    {
+      "row": 22192,
+      "reasons": [
+        "字面转义：保留全部反斜杠"
+      ],
+      "source": "The Theologia Arcanea was penned by the greatest mind to ever grace the faithful world, SaintEfarius. It deals heavily with the relationship between the blessing we know as the “Divine Presence” and the whole of God’s creation. Several logical arguments for the existence of God precede a detailed theoretical explanation as to why the Divine Presence, believed by many to the Holy Ghost itself, manifests in mortals as a form of expendable energy.\\\\n\\\\nThe Theologia Arcanea is the cornerstone for the understanding of the mystical powers contained within the rites and symbols of the Holy Mother Church. The text is considered to be almost as important as the Scriptures themselves. A comprehensive understanding of the principles described in the book would be nearly impossible for the common man to come by, yet, anyone who can fully grasp the concepts could master them.\\\\n\\\\nThough an invaluable asset to the defense of the Faith, there are many who worry that uncontrolled exposure to the book could lead to the manipulation of its incantations by heretics and traitors who would use the secrets therein to bring the Church to its knees.",
+      "translation": "《神学秘典》由曾惠泽信仰世界的最伟大头脑——圣埃法里乌斯——所著。书中大量探讨了我们所知的\"神圣临在\"之恩典与上帝全部造物之间的关系。开篇先提出数条关于上帝存在的逻辑论证，随后详细阐述了神圣临在为何会在凡人身上以一种可消耗能量的形式显现——许多人相信那就是圣灵本身。\\n\\n《神学秘典》是理解圣母教会仪式与符号中所蕴含之神秘力量的基石。该书被认为几乎与圣典同等重要。常人几乎不可能全面理解书中所述的原理，然而，任何能够完全领悟其概念之人，皆可将其掌握。\\n\\n尽管此书是捍卫信仰的无价之宝，仍有诸多人士忧心：若任由其不受约束地流传，可能导致异端与叛徒篡改其中的咒文，利用其中的秘密将教会推向深渊。"
+    },
+    {
+      "row": 22194,
+      "reasons": [
+        "字面转义：保留全部反斜杠"
+      ],
+      "source": "Episkopos Invociren wrote Adversum Maleficarum as a guide for those who devote their lives to battling the forces of evil, particularly those who become conduits for unholy magic. Many of the chapters detail the performing of rites and prayers needed by warriors of God to protect and deliver themselves from evil, but a few of the later chapters also deal with the performance of certain rites of exorcism. Such rites are said to be able to cleanse entire villages, driving legions of demons out of unwilling or unknowing hosts with relative ease.\\\\n\\\\nThe book became an indispensable tool of the True Faith’s defense soon after its publication. The Holy Council declared that the work had been written under the influence of Divine Inspiration, and vowed that the volume would stand beside the Scriptures and the Theologia Arcanea as one of the cornerstones of the Church’s defense.\\\\n\\\\nPope Urbianus II ordered that copies of the Adversum Maleficarum be sent to every holding from Empire of Lochland to the most remote villages on the fringes of the Orthodox world with the express intention of spreading the Faith and its protection as far as humanly possible.",
+      "translation": "主教英沃西伦撰写《反巫术论》，作为献给那些毕生致力于对抗邪恶势力之人的指南，尤其是那些成为不洁魔法通道之人。书中多章详述了上帝的战士为保护自身、免受邪恶侵袭而需进行的仪式与祈祷，但后几章亦涉及某些驱魔仪式。据说此类仪式能够净化整个村庄，将成群的恶魔从不情愿或不知情的宿主体内驱逐出去，且相对轻松。\\n\\n此书出版后不久，便成为捍卫真信仰不可或缺的利器。神圣议会宣称该作是在神圣启示的感召下写成，并发誓此书将与圣典和《神学秘典》并列，成为教会防御体系的基石之一。\\n\\n教皇乌尔比亚努斯二世下令，将《反巫术论》的抄本分发至从洛奇兰帝国到正统世界最偏远村落的每一处领地，意在尽可能将信仰及其庇护传遍人间。"
+    },
+    {
+      "row": 22306,
+      "reasons": [
+        "字面转义：保留全部反斜杠"
+      ],
+      "source": "This strange parchment was among Judge Vallarian’s possessions. Made from human skin and etched in an ancient language, the secrets it holds could be crucial to understanding what the fallen judge’s sinister intentions were.\\\\n\\\\nThe translation, provided by Wisewoman Enrie Jungwirdt, reads:\\\\n\\\\nOn the Eve of Damned Balduin\\\\nNine years after the Night without Wood\\\\nThe Four Messages intact with Seals\\\\nFor the men in Red Robes\\\\nFor the traitors of Umbria\\\\nTo the land of No Man where no stakes burned\\\\n\\\\nEach Twenty and One years after the Damned Balduin\\\\nNine successive followers\\\\nThis is the Plan\\\\n\\\\nIn the crypt of pagans who saw the Light\\\\n\\\\nThe Last will meet and then go in Three Directions\\\\n\\\\nInto the Shadow of a Dragon the First will step\\\\n\\\\nThe Second shall go where the Denhelitians once danced\\\\n\\\\nAnd the Third must find Satan’s Maw\\\\n\\\\nThe prison shall be opened, and vengeance will come.",
+      "translation": "这张奇特的羊皮纸出自瓦拉里安法官的遗物。它以人类皮肤制成，上刻古老文字，其中所藏的秘密对于弄清这位堕落法官的险恶意图至关重要。\\n\\n草药师恩丽·容维特的译文如下：\\n\\n于受诅者鲍德温前夜\\n无木之夜后第九年\\n四道讯息，封印完好\\n致红袍之人\\n致翁布里亚的叛徒\\n至无人之境，那里未曾燃起火刑桩\\n\\n自受诅者鲍德温起每二十一年\\n九位相继的追随者\\n此即计划\\n\\n在曾见圣光之异教徒的地穴中\\n\\n末者将聚，而后分赴三个方向\\n\\n第一步者踏入龙之阴影\\n\\n第二者前往登赫利蒂人曾起舞之地\\n\\n第三者须找到撒旦之口\\n\\n囚笼将被打开，复仇将至。"
+    },
+    {
+      "row": 22345,
+      "reasons": [
+        "字面转义：保留全部反斜杠"
+      ],
+      "source": "When the Erstwick Crusade began, King Luther quickly realized his lightly armored militias would do little but die gracelessly in a akirmishwith the heavy cavalry of his enemies. According to legend, in one of Luther’s many fear-induced fever dreams, he met the angel Raphael, who advised him to journey to a forlorn fishing village on the shores of the Northern Sea. There, the angel claimed, Luther would find his people’s salvation.\\n\\\\n When Luther arrived, he found little of use. The town was little more than a gathering of shanties, fallen into disrepair. As he prepared to leave, hopeless and broken, he saw fishermen spearing fish off the coast with long, wicked spears. The realization struck immediately. Luther ordered thousands of the specially-crafted spears for his armies—weapons that would soon be known as “pikes” for the town in which he’d found them, “Pike’s Landing.\\\\n\\\\nAt first, there were doubts about the efficiency of the new weapons among his men, and after a time, Luther feared they would refuse them in favor of more traditional swords and axes. Understanding that his men would never trust a spear in the command of a sword-wielding king, Luther had his own pike made. Beautiful and deadly, he had the weapon blessed by John Herman II, the Patriarch of the reformed Church of the True Word. At the behest of his men, Luther named the weapon the “Spike of Erstwick.”\\\\n\\\\n When the sun rose on the dawn of the first battle of the Erstwick Crusades, Luther hefted his pike and led his men with a cry and prayer into a veritable horde of marauding crusaders. Faced with the enemy’s heavy cavalry, Luther conquered unquestionably, dominating the field inboth Sadron and Meinheim. Horsemen the world over soon learned to fear the warrior king with the ten-foot reach. Luther’s name, and the name of his weapon, spread like wildfire across the civilized orld.\\\\n\\\\nThe Spike of Erstwick remained in the possession of Erstwick’s Kings until 1210, when it was stripped from the fallen king Darmont I. Though Erstwick won the war, the Ultherstians claimed the Spike of Erstwick as a spoil of war. It has remained in Ultherst ever since, longing to feel again Luther’s touch and the succulent warmth of horseflesh.",
+      "translation": "厄斯特威克十字军东征伊始，路德王便意识到，他那些轻甲民兵在与敌方重骑兵的遭遇战中，除了毫无尊严地战死沙场之外别无用处。据传，在路德因恐惧而生的无数高烧梦境之一中，他遇见了天使拉斐尔，天使劝他前往北海之滨一座荒凉的渔村。天使声称，路德将在那里找到子民的救赎。\\n\\\\n 路德抵达之后，却发现几乎无可取之处。那座城镇不过是一片破败的棚屋聚落，早已年久失修。就在他心灰意冷、准备离去之际，他看见渔民们用又长又利的长矛在海岸边叉鱼。顿悟瞬间降临。路德为他的军队下令赶制了数千柄这种特制长矛——这些武器后来因发现它们的城镇\"矛港\"而得名\"长矛\"。\\\\n\\\\n起初，部下对新武器的效能心存疑虑，过了一段时间，路德甚至担心他们会拒绝使用，转而偏爱更传统的刀剑与战斧。路德深知，士兵们永远不会信任一个手持刀剑的国王所指挥的长矛，于是他命人打造了一柄属于自己的长矛。那柄长矛既美丽又致命，他请改革后真言教会宗主教约翰·赫尔曼二世为其祈福。应部下之请，路德将这柄武器命名为\"厄斯特威克之刺\"。\\n\\\\n 当厄斯特威克十字军首战的黎明破晓，路德高举长矛，一声呐喊与祷告，率领部下冲入如潮水般涌来的劫掠十字军大军之中。面对敌人的重骑兵，路德毫无悬念地取得胜利，在萨德隆与迈因海姆两处战场上均牢牢掌控了战局。天下骑手很快便对这位攻击距离达十英尺的战士之王心生畏惧。路德之名，以及他武器之名，如野火般席卷整个文明世界。\\\\n\\\\n\"厄斯特威克之刺\"一直在厄斯特威克诸王的掌握之中，直至1210年，从战败的达尔蒙特一世身上被夺走。尽管厄斯特威克赢得了战争，乌尔瑟斯特人却将\"厄斯特威克之刺\"据为战利品。它此后便一直留在乌尔瑟斯特，渴盼再次感受路德的触碰，以及马肉那温热甘美的滋味。"
+    },
+    {
+      "row": 22347,
+      "reasons": [
+        "字面转义：保留全部反斜杠"
+      ],
+      "source": "Few angels hold the same level of esteem as Gabriel, the emissary. According to legend, it was he who saved the life of Friedrich the Brave, King of Lochland, at the Battle of Kunth in the year 411.//n//n The Battle of Kunth was the culmination of treason by Lochland’s Northern nobles against the Imperial Crown. Unsatisfied with Friedrich’s rule, the Northern lords vowed to take Lochland by force, threatening to break the nation into several small holdings if necessary. The royalists and separatists clashed near a small village named Kunth, where Friedrich soon found himself surrounded by the vastly superior numbers of unionist armies.\\\\n\\\\nWith a will of stone and the heart of a conqueror, Friedrich led a counterattack againstGrand Duke Vittorio the Hollander, the leader of the Northern Separation Union. In the end the savage duel ended with the Friedrich's victory—according to legends he owed that to the Archangel Gabriel who used a blessed, angelic shield to block several fatal blows from Vittorio. The rumor is that after the battle, Friedrich fell to his knees and prayed to Gabriel for delivering the battle to the righteous. Never far from the field, the Archangel heard his plea and appeared to bestow upon him a shield which would serve the leaders of Lochland for centuries. The Empire of Lochland, which has always been a firm bastion of the True Faith, has since made the shield a part of their very culture.\\\\n\\\\n The shield remained in the Imperial Armory until 1145 when it was given to King Joachym XII of Ultherst for his lending his aid in the Second Crusade. The shield has belonged to Ultherst ever since.",
+      "translation": "很少有天使能获得与使者加百列同等的敬重。据传，正是他在411年的昆斯战役中拯救了洛奇兰国王勇敢的弗里德里希的性命。//n//n 昆斯战役是洛奇兰北方贵族对帝国王冠叛逆的顶点。北方领主们对弗里德里希的统治不满，发誓以武力夺取洛奇兰，威胁必要时将国家分裂为数个小小领地。保皇派与分离派在名为昆斯的小村庄附近交战，弗里德里希很快发现自己被联盟军压倒性的人数所包围。\\n\\n凭借着磐石般的意志和征服者的心脏，弗里德里希对北方分离联盟的领袖——大公爵\"荷兰人\"维托里奥发起了反击。最终，这场凶猛的决斗以弗里德里希的胜利告终——据传，这要归功于大天使加百列，他用一面受祝福的天使之盾挡下了维托里奥的数次致命攻击。传闻战后，弗里德里希跪倒在地，向加百列祈祷，感谢他将胜利赐予正义的一方。大天使始终未曾远离战场，他听到了弗里德里希的祈求，显现出并赐予他一面盾牌，此盾在数百年间守护着洛奇兰的统治者。洛奇兰帝国始终是真信仰的坚固堡垒，自此将这面盾牌融入了他们的文化之中。\\n\\n 这面盾牌一直保存在皇家军械库中，直到1145年，为嘉奖乌尔瑟斯特的约阿希姆十二世国王在第二次十字军东征中提供的援助，将其赐予了他。自那时起，这面盾牌便归乌尔瑟斯特所有。"
+    },
+    {
+      "row": 22349,
+      "reasons": [
+        "字面转义：保留全部反斜杠"
+      ],
+      "source": "Few men have and ever will live up to the legend of Pontheus, wielder of Gladius Maximus, the blade which tamed the Galibornium Coliseum. Even though he was just a slave, Pontheus the slayer became would go on ot become more famous than any of his contemporaries, perhaps with the exception of Emperor Constantine, the Erebornian ruler who was overthrown by the armies of the faithful.\\\\n\\\\nPontheus's sword was most likely created by the priests and theurgists of the Cult of the Creators,who made their residences in the dungeons beneath the Coliseum. There, they worked ceaselessly turning hapless creatures and slaves into fearsome monsters fit for Pontheus’ blade. Audiences thousands strong packed the Coliseum day after day to watch the slayer fight, and day after day they were amazed by his cunning and brutality.\\\\n\\\\n After Galibornium was conquered by the army of Saint Orthenius, the Coliseum’s entrance was sealed and all of its inhabitants were left there to meet a gruesome end. It should be noted that, years later, when the gates were reopened, the body of Pontheus was not among the dead.",
+      "translation": "过去很少有人、将来也不会有人能够匹敌庞修斯的传奇——至大之刃的持有者，那柄驯服了加利博尼姆斗兽场的利刃。尽管他只是个奴隶，屠戮者庞修斯后来的名声超越了所有同时代的人，也许只有被信众军队推翻的埃雷博恩人统治者君士坦丁皇帝除外。\\n\\n庞修斯的剑很可能出自造物主教团的牧师与术法师之手，他们居住在斗兽场下方的地牢中。在那里，他们不停地将不幸的生物和奴隶变成足以匹敌庞修斯之刃的可怕怪物。成千上万的观众日复一日地挤满斗兽场，观看屠戮者的战斗，日复一日地为他的狡诈与残暴所折服。\\n\\n 在加利博尼姆被圣奥塞尼乌斯的军队征服后，斗兽场的入口被封死，其中所有的居民都被留在那里等待凄惨的结局。值得注意的是，多年后当大门重新开启时，死者中并没有庞修斯的遗体。"
+    },
+    {
+      "row": 22364,
+      "reasons": [
+        "字面转义：保留全部反斜杠"
+      ],
+      "source": "According to scripture, the man who would eventually become Saint George belonged to a rich family living in Cappadocia, the easternmost province of the Erebornian Empire. He served in the army of Emperor Diocletianus as an officer, accompanying the Emperor on his journey through the province. It seemed at one point that a promising future lay before the young officer. At a young age, his name was already known to perhaps the most powerful man in the world. All that changed, however in 118, when George accepted the True Faith and was mercilessly tortured to death for his beliefs.\\\\n\\\\n According to another legend, Saint George embraced the True Faith after he met a vicious dragon on some far flung battlefield. The ultimate incarnation of the beast, George fought for hours before the beast was slain, and only then because Gabriel himself had blessed the tip of his lance.\\\\n\\\\nRegardless of when George turned to the faith, the blessed lance was a thing of truth. It was lost after the Saint's death, but was found again during the First Crusade. Bearing the might of The Emissary himself, the lance became a symbol for the liberators of the Holy Grave. After the battle of Nashamir Fields, where the Crusaders suffered a terrible defeat at the hands of Omar II, the lance came into the possession of Aerin de Gublaire, a commander of the Brotherhood of the Righteous. When the crusaders returned from the Holy Lands, Gublaire brought the precious relic with him. It has remained in the Realm ever since.",
+      "translation": "据经文记载，日后成为圣乔治之人的男子出身于卡帕多西亚一个富裕家庭，该省是埃雷博恩人的帝国最东端的行省。他在戴克里先皇帝军中担任军官，随皇帝巡视该省。一度看来，这位年轻军官的前途无可限量。年纪轻轻，他的名字便已为世上最有权势之人所知。然而在118年，一切都因乔治皈依真信仰而改变——他因信仰被无情折磨致死。\\n\\n 另一则传说称，圣乔治是在一片遥远战场上遭遇恶龙之后，才皈依真信仰的。那恶龙乃巨兽的终极化身，乔治与其鏖战数小时方将其斩杀——而能成此事，只因加百列亲自祝福了他的枪尖。\\n\\n无论乔治何时转向信仰，那柄受祝福的长枪确有其事。圣人死后它便遗失，却在第一次十字军东征中重见天日。承载着使者本人的威能，这柄长枪成为解放圣地墓穴者的象征。在纳沙米尔原野战役中，十字军惨败于奥马尔二世之手，此后长枪落入正义兄弟会指挥官艾林·德·古布莱尔手中。十字军自圣地返回时，古布莱尔将这件珍贵圣物带回，此后一直留在王国。"
+    },
+    {
+      "row": 22368,
+      "reasons": [
+        "字面转义：保留全部反斜杠"
+      ],
+      "source": "Glaives have been an integral part of warfare since 999, when the Erstwick Landsknechts under the command of King Luther drove off the Empire’s Crusaders with little more than their newly-adopted pikes. Similarly to Dies Irae, the relic of Commander Koliash of Monthart, which popularized the use of the halberd, Blood Bane was the relic that made glaives known throughout the faithful world.\\\\n\\\\nBlood Bane belonged to Philip of Kunttenburg, an infamous brigand and feared cutthroat descended from a noble Lochland family. Rumor has it that he partook in the Crusade against Erstwick in 999 to make amends for his sinful life—and almost found himself impaled on the end of a pike in a brutal counterattack that left many of his fellows dead. After the brush with death, Phillip decided to modernize arsenal and ordered a powerful glaive be made. After its completion, he had it enchanted by a monk named Gaspar, who was later accused of summoning of devils by the Papal Inquisition.\\\\n\\\\n Unaware of the dark enchantments tainting his weapon, Phillip found glory not on the battlefield, but along the royal roads, haunting villages and small towns with a roving army of brigans. His miserable life was ended in the Second Crusade against Erstwick, where once again, to atone for his sins, he was allowed to ride alongside the Crusaders. He was impaled by several pikes in a fruitless charge, and bled to death within minutes, or so the legend goes. After his death, Blood Bane was seized by the Ultherstian Crusaders who returned the fabled relic to the Realm. There, it has changed hands many times, eventually finding its way into the possession of one or more local noble families over the years.",
+      "translation": "长柄刀自999年起便是战争中不可或缺的一部分，当时厄斯特威克佣兵在路德王麾下，仅凭新采用的长矛便击退了帝国的十字军。与蒙塔尔特的科利亚什指挥官那柄使戟得以普及的圣物\"末日审判\"类似，\"血之祸\"是让长柄刀闻名于信仰世界的圣物。\\n\\n血之祸曾属于孔滕堡的菲利普——一个臭名昭著的强盗、令人闻风丧胆的杀手，出身于洛奇兰一个贵族家庭。传言他在999年参加征讨厄斯特威克的十字军东征，是为了赎清自己罪恶的一生——却在一场惨烈的反击中险些被长矛刺穿，那场反击令他众多同伴丧命。死里逃生后，菲利普决定更新武库，命人打造了一柄强大的长柄刀。完工之后，他请一位名叫加斯帕尔的修士为其附魔，而此人后来被教廷宗教裁判所指控召唤恶魔。\\n\\n 菲利普浑然不知自己的武器已被黑暗魔力玷污，他所获得的荣耀不在战场，而在王家大道之上——他率领一帮流窜的强盗，袭扰村庄与小镇。他悲惨的一生终结于征讨厄斯特威克的第二次十字军东征，为赎清罪孽，他再度获准与十字军并肩驰骋。他在一次徒劳的冲锋中被数根长矛刺穿，数分钟内便流血而亡——传说如此。他死后，血之祸被乌尔瑟斯特的十字军夺走，他们将这件传奇圣物归还王国。此后它在王国中数易其手，多年辗转之后，最终落入某个或某些地方贵族家族手中。"
+    },
+    {
+      "row": 22378,
+      "reasons": [
+        "字面转义：保留全部反斜杠"
+      ],
+      "source": "Destroyer was the mighty axe of Vandor the Cruel, chieftain of the barbarian raiders who assaulted the Erebonian Empire in 395 of the Old Era. According to barbarian myths, the axe was forged by the semi-divine smiths Ethor and Unmair in the fabled city of Vallhard. There, barbarian gods and warrior kings waged war eternal between bouts of orgiastic feasting.\\\\n\\\\n Regardless of the veracity of ancient myths, the truth is wherever Vandor and Destroyer went, armies and cities fell. Even Bonorium, the Erebornian capital, eventually fell to the barbarian’s might. Vandor would later rename the empire Destroyer carved for him “Gubrinium.”\\\\n\\\\nAfter Vandor’s death, his two-bladed axe fell into the possession of Cleonus Flavius, a wandering merchant who brought it to his native city of Galibornium in the Filkland Peninsula. Destroyer remained in the Flavius family until the death of its last member, Honoricus Flavius, and was buried alongside him in the Flavius family tomb.",
+      "translation": "毁灭者是残暴的凡多尔的战斧，他是旧纪元395年袭击埃雷博恩帝国的蛮族劫掠者首领。据蛮族传说，这把战斧由半神铁匠埃索尔和翁迈尔在传奇之城瓦尔哈德锻造。在那里，蛮族神祇与武士之王在纵宴狂欢之间永无止息地征战厮杀。\\n\\n 无论古老传说是否属实，事实是凡多尔与毁灭者所到之处，军队与城邦无不沦陷。甚至埃雷博恩人的首都博诺里姆也最终屈服于蛮族的威势。凡多尔后来将毁灭者为他征服的帝国重新命名为\"古布里尼姆\"。\\n\\n凡多尔死后，他的双刃战斧落入了游商克莱奥努斯·弗拉维乌斯手中，他将其带回了故乡——菲尔克兰半岛的加利博尼姆。毁灭者在弗拉维乌斯家族中传承，直到末代成员霍诺里库斯·弗拉维乌斯去世，与他一同葬入了弗拉维乌斯家族墓穴。"
+    },
+    {
+      "row": 22398,
+      "reasons": [
+        "字面转义：保留全部反斜杠"
+      ],
+      "source": "Orc’s Bane was the fabled axe of King Harlior, ruler of the sub-human Thron Empire, deep below the Moonshine Mountain range. Harlior fought the Orcs, who sought to steal his kingdom, tooth and nail. He finally fell in a duel with Khan Rashgar, Lord of the Orcs, who slew the great king with a blow from his mighty hammer. After his death, neither the king’s body nor his magnificent axe were ever found, leading many to believe he would rise from the Netherworld to reclaim his kingdom one day.\\\\n\\\\n Orc’s Bane is made of the finest steel, the crafting of which was lost with the fall of Thron. Legends say King Harlior could severed the heads of several Orcs in a single swing; For the Orc’s sake, let’s pray those legends were true.",
+      "translation": "兽人之祸是哈里奥尔国王的传奇战斧；他统治着月光山脉深处地下的亚人类索恩帝国。哈里奥尔与那些企图夺走他王国的兽人殊死搏斗。最终，他在与兽人之主拉什加尔汗的决斗中落败，被对方以巨锤一击毙命。他死后，国王的遗体与那柄宏伟战斧皆不见踪影，许多人因而相信，他终有一日会自冥界归来，夺回自己的王国。\\n\\n 兽人之祸以最精良的钢铁铸成，其锻造之法已随索恩的覆灭而失传。传说哈里奥尔国王一斧便能斩落数颗兽人头颅；看在兽人的份上，但愿这些传说都是真的。"
+    },
+    {
+      "row": 22406,
+      "reasons": [
+        "字面转义：保留全部反斜杠"
+      ],
+      "source": "The art of crafting reflex bows was copied by Erebornian bowyers from the Elenians, a mysterious non-human race. Though Elenian bows remain unsurpassed in their craftsmanship, having been enchanted by now-lost druidic magic, the Erebornian’s modern equivalent is still comparable in terms of strength.\\\\n\\\\n Perhaps the best known (and most feared) bow among the Erebornians was the reflex bow of Grand Duke Liun'Dren, an Elenian noble, named String of Death. The Grand Duke used it tirelessly to defend his homeland until the Erebornians conquered the Elenian capitol in 395. The Grand Duke, ushering the rest of his forlorn people to safety, carried the bow with him to the Filkland Peninsula, where it was thought to be lost forever.",
+      "translation": "反曲弓的制作技艺，是埃雷博恩人的弓匠从一个神秘的非人类种族——艾伦尼亚人那里学来的。尽管艾伦尼亚之弓凭借已失传的德鲁伊魔法，在工艺上至今无出其右，但埃雷博恩人当代的等同之作在力量上仍可与之匹敌。\\n\\n 在埃雷博恩人中，最为人所知（也最为人所畏惧）的弓，当属艾伦尼亚贵族李恩德伦大公的反曲弓——\"死亡之弦\"。大公不倦地使用它保卫家园，直到395年埃雷博恩人攻占艾伦尼亚首都。大公引领着残余的孤苦族人前往安全之地，携此弓穿越至菲尔克兰半岛，此后它被认为永远失落了。"
+    },
+    {
+      "row": 22509,
+      "reasons": [
+        "字面转义：保留全部反斜杠"
+      ],
+      "source": "The crafting of Warhammers, more so than any other weapon in history, was a call of challenge from smiths to their fellows. These broad, crushing hammers were forged to combat the ever-increasing strength of plate mail. Needless to say, a weapon crafted to destroy plate mail could – and will – more than easily crush the thing wearing it.\\\\n\\\\nOne could say that a cavalry war hammer is a successor to the so-called Ultharian mace. This was a hammer-like weapon, which enabled Grand Duke Ulfmar and his mean to defeat the armies of King Philip Gaspar I in 1001.\\\\n\\\\n A classical war hammer is completely made of steel with roundels protecting and reinforcing the haft. The roundels are small, often decoratively formed, metal rings. The haft is approximately half a meter long.",
+      "translation": "战锤的锻造，比历史上任何其他武器都更像是铁匠向同行发出的挑战宣言。这些宽厚而具有碾压之力的锤器，正是为了对抗板甲日益增长的力量而锻造的。不用说，一件为摧毁板甲而造的武器，当然——也必然会——轻而易举地碾碎穿戴板甲的人。\\n\\n可以说，骑兵战锤是所谓乌尔萨利亚狼牙棒的继承者。那是一种锤状武器，正是它助乌尔夫马尔大公及其麾下将士在1001年击败了菲利普·加斯帕一世国王的军队。\\n\\n 古典战锤通体以钢制成，以圆环护盾保护并加固握柄。圆环是一种小巧的、常带装饰造型的金属环。握柄长约半米。"
+    },
+    {
+      "row": 22511,
+      "reasons": [
+        "字面转义：保留全部反斜杠"
+      ],
+      "source": "War bows are a unique brand of weapon, recognized at once as the mark of a skilled archer and a discriminate killer. War bows, which are derived from the concept of the Elenian “Assassin Bow,” are powerfully built frames strung with only the strongest of twine.\\\\n\\\\n Many men will attest that an arrow loosed from a war bow is the equivalent of sword swing from thirty yards away.",
+      "translation": "战弓是一种独特的武器，一旦出现在战场上便被视为神射手与冷血杀手的标志。战弓源自艾伦尼亚人\"刺客弓\"的概念，以极其坚韧的框架制成，只绷缚最强韧的弓弦。\\n\\n 许多人断言，从战弓上射出的一支箭，等同于三十码外挥来的一剑。"
+    },
+    {
+      "row": 22515,
+      "reasons": [
+        "字面转义：保留全部反斜杠"
+      ],
+      "source": "Carrying a great club can potentially signify a great many things about a man.\\\\n\\\\n One, that he speaks softly. With a weapon of such incredible girth and power, the need to raise one’s voice becomes nonexistent.\\\\n\\\\n Two, that he walks tall. Men with proficiency wielding a great club rarely fear other, lesser warriors.\\\\n\\\\n And three, that he knows his business, and business is good. That’s really all there is to it.",
+      "translation": "携带一根巨棍，足以说明一个男人的许多事情。\\n\\n 其一，他说话轻声细语。拥有一件如此粗壮有力的武器，提高嗓门的必要便不复存在。\\n\\n 其二，他昂首阔步。精通巨棍之人，很少恐惧其他武艺稍逊的战士。\\n\\n 其三，他深知自己的行当，而且生意兴隆。事情就是这样，仅此而已。"
+    },
+    {
+      "row": 23668,
+      "reasons": [
+        "字面转义：保留全部反斜杠"
+      ],
+      "source": "This spell resurrects one dead character from the player's party.\\\\n\\\\nThis spell affects only dead characters from the player's party.\\\\n\\\\nResurrection is one of the biggest miracles one can encounter both in the Holy Scripture and in the real life. With the help of divine mercy, a dead person can be brought back to life. The process of full revitalization of a human being includes the returning of his soul back to his body which means that it is not just a filthy activation of a dead body using a soul brought from the Afterworld by force. It is an act of truly divine love of human. The Resurrection spell is similar to the miracle and it is able to resurrect a person who is close with the caster using the psychological and spiritual bonds between the two.",
+      "translation": "此法术复活玩家队伍中的一名死亡角色。\\n\\n此法术只影响玩家队伍中的死亡角色。\\n\\n复活是无论在圣典还是在现实中最伟大的奇迹之一。借由神圣慈悲，死者得以复生。一个人类完全复苏的过程包括将其灵魂归还其身躯，这意味着这并非以蛮力从冥界召回灵魂来激活一具肮脏的尸骸。这是真正神圣之爱对人类的彰显。复活法术与此奇迹相似，它借助施法者与目标之间的心理与灵性纽带，能够复活与施法者亲近之人。"
+    },
+    {
+      "row": 23669,
+      "reasons": [
+        "字面转义：保留全部反斜杠"
+      ],
+      "source": "This spell temporarily decreases Strength, Dexterity and Speed of the target by $$X$$.\\\\n\\\\nAny being can be the target of this spell.\\\\n\\\\nThe higher mastery level the caster is, the more the attributes of the target decrease.\\\\n\\\\nThe heretical practitioners of the Pagan Magic studied the forbidden scriptures of Opiel Maxim, the mage and the alchemist of the Erebornian emperor, and found a formula able to put one in a state similar to the effects of overdose by narcotics, psychotropic substances and poisons. Opiel derived his abilities from pagan god Héroin whose kiss could bring about an ecstatic state of mind as well as painful death. The same spell nowadays uses the metaphysical imprint of faith in Héroin who survived the downfall of paganism and the rise of the true faith.",
+      "translation": "此法术会使目标的力量、敏捷和速度暂时降低 $$X$$。\\n\\n任何存在都可以成为此法术的目标。\\n\\n施法者的精通等级越高，目标属性降低得越多。\\n\\n异教魔法的异端修习者研读了埃雷博恩人皇帝的法师与炼金术士奥皮尔·马克西姆的禁书，找到了一个能使人陷入类似过量服用麻醉品、精神药物与毒药后状态的公式。奥皮尔的力量源自异教神明赫罗因，赫罗因的吻既能带来狂喜的心境，也能带来痛苦的死亡。同一法术如今利用的是对赫罗因信仰的形而上印记——赫罗因在异教覆灭与真信仰崛起之后依然存续。"
+    },
+    {
+      "row": 23677,
+      "reasons": [
+        "字面转义：保留全部反斜杠"
+      ],
+      "source": "This spell summons a few lightning balls which randomly move around causing Lightning Damage of 20d6 Hit Points.\\\\n\\\\nAny spot in the line of sight of the caster can be the target of this spell.\\\\n\\\\nLightning was a frequent manifestation of divine wrath at the time of the Erebornian Empire. Unlike the true faith legends, where lightning as a manifestation of divine wrath appears as well, the pagan lightning was not lightning going from sky to the ground but rather a ball of lightning which would suddenly materialize by the sinner and burn him to ashes. A similar principle is used by this spell that concentrates energy with a quality of a ball of lightning on a single spot and thrusts it then against the opponent. This spell was a powerful weapon frequently used against the enemy even by the faithful armies fighting against Ereborn in 223 and despite church bans it has been preserved until nowadays.",
+      "translation": "本法术会召唤数颗闪电球，使其四处游走，造成 20d6 生命值的闪电伤害。\\n\\n施法者视野内的任何地点都可成为此法术的目标。\\n\\n在埃雷博恩人帝国的时代，闪电是神圣之怒常见的显现方式。正统信仰的传说中同样出现过作为神圣之怒显现的闪电，但与之不同的是，异教的闪电并非自天而降，而是一颗凭空出现在罪人身边、将其烧成灰烬的闪电球。本法术运用的正是类似的原理：将能量凝聚成闪电球的形态，锁定于一点，再掷向对手。此法术是一件强大的武器，甚至在223年讨伐埃雷博恩的虔信军队中也屡屡用来打击敌人；尽管教会明令禁止，它仍留存至今。"
+    },
+    {
+      "row": 23678,
+      "reasons": [
+        "字面转义：保留全部反斜杠"
+      ],
+      "source": "This spell inflicts Fire Damage of 10d10+$$X$$ Hit Points per second during the time of its effect.\\\\n\\\\nAny being in the area of effect can be the target of this spell.\\\\n\\\\nThe legend of the sinful city of Narmazal which was burned down for turning away from the divine pantheon and felling for the seduction of demons is one of the most terrifying passages in the pagan mythology. The gods cast a rain of fire in this story which burned down the city and its inhabitants. Reportedly, the fire rained down from the sky for three days and three nights before the gods calmed down. The pagan mages were inspired by this manifestation of divine power which they studied and derived a formula from it that summons similar powers, although in smaller range. Since this spell was a powerful weapon, it was frequently being used against the enemy even by the faithful armies fighting against Ereborn in 223 and despite church bans it has been preserved until nowadays.",
+      "translation": "本法术在生效期间，每秒造成 10d10+$$X$$ 生命值的火焰伤害。\\n\\n作用范围内的任何生物都可成为此法术的目标。\\n\\n罪恶之城纳尔马扎尔因背弃神系、屈服于恶魔的蛊惑而被烈火焚毁的传说，是异教神话中最骇人的篇章之一。在这段故事里，诸神降下火雨，将城市及其居民一并烧尽。据说天火连降三天三夜，方才平息诸神的怒火。异教法师深受这一神力显现的启发，对其加以钻研，并由此推演出一道能召唤同类力量的公式，只是作用范围较小。由于此法术是强大的武器，甚至在223年讨伐埃雷博恩的虔信军队中也屡屡用来打击敌人；尽管教会明令禁止，它仍留存至今。"
+    },
+    {
+      "row": 23683,
+      "reasons": [
+        "字面转义：保留全部反斜杠"
+      ],
+      "source": "This spell allows the player and his party to walk over dangerous places such as chasms, lava and acid pools etc. Doors can be telekinetically opened by casting this spell on them. It is also possible to use this spell to pick up distant items.\\\\n\\\\nOnly the player and his party, a door or an item can be the target of this spell.\\\\n\\\\nThe amount of Mana needed to cast this spell decreases with the mastery level of the caster.\\\\n\\\\nThe prophet Matheus, being a follower of the First Prophet, found himself in many dangerous situations in the course of his life and often managed to save his life only thanks to a miracle. At his visit of Kassmus city, the Erebornian soldiers pursued him for a mass he served to a river dock where they surrounded him. Matheus protected by his faith stepped on the water surface and miraculously crossed the river Bonthra on feet. That was the first known case of levitation which was then turned to a formula of the Magic of Miracles.",
+      "translation": "此法术使玩家及其队伍能够穿越危险地带，如深渊、岩浆和酸液池等。对此法术施加于门上可隔空开启门扉。也可用此法术拾取远处的物品。\\n\\n玩家及其队伍、一扇门或一件物品都可以成为此法术的目标。\\n\\n施放此法术所需的法力随施法者的精通等级而减少。\\n\\n先知马特乌斯作为第一先知的追随者，一生中曾多次身陷险境，往往只凭一次奇迹才得以保全性命。他在到访卡斯穆斯城时，埃雷博恩人的士兵因他主持的一场弥撒而追捕他，一直追到河边码头，在那里将他团团围住。马特乌斯以信仰护身，踏上水面，奇迹般地徒步跨过了邦斯拉河。这是已知最早的悬浮案例，后来被转化为奇迹魔法的公式。"
+    },
+    {
+      "row": 23703,
+      "reasons": [
+        "字面转义：保留全部反斜杠",
+        "源文真实换行（仅一条 CRLF）"
+      ],
+      "source": "Wisdom is the priest's strength. Thanks to their wisdom, the priests are able to absorb a lot of information and use it to increase their knowledge and understanding. This helps them understand and perform spells of all magical books.\\\\n\\\\nThe amount of Mana necessary to cast a spell and the Stamina loss when casting it decrease. The probability of successfully casting a spell increases and the time needed to restore energy after casting it decreases.\\\\n\\\\nMastery Levels:\\\\nApprentice: skill lvl 1; Int 1; lvl 1\\\\nDisciple: skill lvl 6; Int 18; lvl 10\\\\nJourneyman: skill lvl 11; Int 46; lvl 22\\\\nMaster: skill lvl 16; Int 66; lvl 38",
+      "translation": "智慧是牧师的力量。凭借智慧，牧师能够吸收大量信息，并以此增进自身的知识与理解。这使他们得以领悟并施展所有魔法典籍中的法术。\n\n施展法术所需的法力与施法时消耗的耐力均会减少。施法成功的概率提高，施法后恢复精力所需的时间缩短。\n\n精通等级：\n见习生：技能等级 1；智力 1；等级 1\n修习者：技能等级 6；智力 18；等级 10\n行家：技能等级 11；智力 46；等级 22\n大师：技能等级 16；智力 66；等级 38"
+    },
+    {
+      "row": 23711,
+      "reasons": [
+        "字面转义：保留全部反斜杠",
+        "源文真实换行（仅一条 CRLF）"
+      ],
+      "source": "Divine Strike represents a conjunction of divine wrath and the strength of the paladin's arm, i.e. a conjunction of the spiritual and physical sides of justice. A paladin using the Divine Strike will boost his melee attack tremendously, which will however cost him twice as much Stamina.\\\\n\\\\nThe higher mastery level the paladin is, the higher his chances are to score a Critical Hit which gives him the ability to stun his opponents.\\\\n\\\\nMastery Levels:\\\\nApprentice: skill lvl 1; Dex 1; lvl 1\\\\nDisciple: skill lvl 6; Dex 10; lvl 10\\\\nJourneyman: skill lvl 11; Dex 20; lvl 16\\\\nMaster: skill lvl 16; Dex 40; lvl 33",
+      "translation": "神圣打击是神圣之怒与圣骑士手臂力量的结合，亦即正义在精神与肉体两个层面的交汇。使用神圣打击的圣骑士将大幅强化近战攻击，但代价是耐力消耗翻倍。\n\n圣骑士的精通等级越高，打出暴击的几率就越高，暴击使他能够击晕对手。\n\n精通等级：\n见习生：技能等级 1；敏捷 1；等级 1\n修习者：技能等级 6；敏捷 10；等级 10\n行家：技能等级 11；敏捷 20；等级 16\n大师：技能等级 16；敏捷 40；等级 33"
+    }
+  ]
+}

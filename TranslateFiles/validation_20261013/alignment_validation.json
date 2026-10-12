@@ -1,0 +1,22 @@
+{
+  "cache_records": 24074,
+  "source_mismatch_rows": [],
+  "translation_mismatch_rows": [
+    23569,
+    23929,
+    24053,
+    24055,
+    24057,
+    24061
+  ],
+  "models": {
+    "mimo-v2.6-flash": 24068,
+    "none": 6
+  },
+  "statuses": {
+    "1": 23065,
+    "2": 1003,
+    "7": 6
+  },
+  "translation_mismatch_explanation": "六条为 EXCLUDED=7，缓存译文为空，导出回退为原文；含应翻译的 New Save。"
+}

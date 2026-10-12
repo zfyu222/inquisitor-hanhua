@@ -6,6 +6,9 @@
 /ainiee_output/
 /AiNieeCache/
 /AiNieeOutput/
+/TranslateFiles/**/AiNieeCache/
+/TranslateFiles/**/backups/
+/TranslateFiles/validation_20261013/candidate.csv
 
 # 备份与中间产物
 *.bak

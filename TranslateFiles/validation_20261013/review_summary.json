@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-13",
+  "result": "not_ready_for_repack",
+  "records": 24074,
+  "empty_translations": 0,
+  "strict_error_rows": 23,
+  "slash_width_error_rows": 20,
+  "new_real_newline_rows": [
+    22190,
+    23703,
+    23711
+  ],
+  "unchanged_rows": 40,
+  "unchanged_rows_are_not_all_errors": true,
+  "confirmed_untranslated_ui": [
+    23569
+  ],
+  "confirmed_typo_rows": [
+    10607
+  ],
+  "terminology_candidate_rows": 243,
+  "terminology_candidate_mentions": 265,
+  "semantic_sample_records": 53,
+  "semantic_review": "固定随机抽样加重点术语、格式异常和未改动项核对；非全文逐句语义验收",
+  "original_file_modified": false,
+  "official_translation_created": false,
+  "input_sha256": "26ef825d7fdb88f0451cba666d8ab72dfdfb389f62ba81642d3c2e17cd3fc57a"
+}
