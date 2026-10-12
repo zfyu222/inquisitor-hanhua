@@ -52,3 +52,5 @@ python deploy_patch.py restore-settings
 测试中临时将 `d3dparams.ini` 的 StartWindowed 改为 1、`gfx.ini` 的 CreateLogFile 改为 1；两个原始文件保存在本目录且不入库。`restore-settings` 只在当前设置仍与预期测试改动相符时恢复，避免覆盖用户后来修改。
 
 尚需验收：进入角色创建/游戏，检查中文、对话/任务/提示布局，以及存读档；图片菜单另行处理。当前不制作对外发布包。
+
+输入排查（2026-10-13）：重新连接 IDA，确认当前数据库为原始 Inquisitor.exe，SHA-256 与构建基线一致。`0x5674A0` 比较 `menu-newgame_btn`，命中后在 `0x5674E0` 调用 `0x56A780` 切换至 `menu-newgame-dif`；入口来自 `0x570660` 内的 `0x5755D7`。`0x509D80` 在 `0x509DAF` 调用 DirectInput8Create，初始化版本参数为 `0x800`。这些只确认菜单分派及输入技术栈，尚未证明自动点击失效原因；未修改可执行文件或输入逻辑。最新窗口截图仍为主菜单，需要手动点击 NEW GAME 后继续中文显示验收。
