@@ -9,6 +9,9 @@
 /TranslateFiles/**/AiNieeCache/
 /TranslateFiles/**/backups/
 /TranslateFiles/validation_20261013/candidate.csv
+/TranslateFiles/repair_*/inquisitor_text_repaired.csv
+/TranslateFiles/repair_20261013/
+/TranslateFiles/repair_20261013_v2/generic/
 
 # 备份与中间产物
 *.bak

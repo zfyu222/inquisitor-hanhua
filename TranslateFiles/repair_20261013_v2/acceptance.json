@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-13",
+  "records": 24074,
+  "changed_rows": 312,
+  "strict_errors": 0,
+  "generic_profile_exit_code": 0,
+  "terminology_review": {
+    "resolved": 118,
+    "accepted_expression": 56,
+    "accepted_context": 91
+  },
+  "semantic_review_scope": "复核全部265条术语候选、既有53条样本及新增名称统一项；非全文逐句语义验收",
+  "original_export_unchanged": true,
+  "ainiee_cache_modified": false,
+  "game_files_modified": false,
+  "formal_sha256": "de57ef953773fb02d5b29bfe1f489f4d7f32989705446a83df27f99179827720",
+  "accepted_new_save_exception": "仅排除通用 angle 中的 <New Save \\> 可见文本，严格校验仍保护转义边界",
+  "known_notes": [
+    "Your Holiness 对象在 Laurencius_pal.dlt，为游戏教会尊称；保留阁下，未推定为教皇。",
+    "拉丁/虚构语句、按键和版权信息保留原文；语言是否需要加释义未做额外改写。",
+    "原文 //n、\\\\T 等原始异常未改写；只修复译文新增的确定格式损坏。",
+    "中文字体、界面布局及游戏内加载尚未验证。"
+  ]
+}

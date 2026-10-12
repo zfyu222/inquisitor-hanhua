@@ -92,4 +92,6 @@ python .\apply_reviewed_glossary.py --apply
 
 ## 2026-10-13 译后检查
 
+后续修复已完成：正式文件在项目根目录 `inquisitor_text_translated.csv`。以下检查失败信息为历史；最新验收见 `repair_20261013_v2/review.md`，共24,074条，312条修正，全部265次术语候选已记录结论。重验用 `python TranslateFiles/validate_inquisitor.py inquisitor_text_translated.csv`。原导出和活动缓存保持原状，不要再次用旧缓存导出覆盖正式修复版。
+
 用户提供的 AINiee 导出文件已检查。24,074 条对齐、无空译文；23 条转义异常，另有 New Save 漏译和“敲扎”错字。当前未通过验收，暂不回填。报告见 `validation_20261013/review.md`；候选副本和所有新报告均位于 TranslateFiles。旧术语/缓存目录本次保持原状，不进行自动搬迁。

@@ -1,2 +1,4 @@
 # Preserve quoted CRLF inside CSV records exactly on every platform.
 *.csv -text whitespace=cr-at-eol
+# Existing translation field whitespace is data, including the preserved CRLF record.
+inquisitor_text_translated.csv -whitespace
