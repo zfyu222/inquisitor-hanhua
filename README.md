@@ -71,6 +71,7 @@
 - 命令：`python build_patch.py` 构建；退出游戏后 `python deploy_patch.py install` 安装、`remove` 移除补丁、`restore-settings` 恢复测试前的两个设置文件。安装程序校验原始 EXE/三个资源包哈希并拒绝替换未知同名补丁；升级旧补丁先备份。
 - 验证：759 份资源经项目解码与 QuickBMS 0.12.0 独立解包后逐字节一致；正式 CSV 严格校验仍通过。原始 EXE、01_local、01_data、02_patch 未修改。测试版窗口模式启动至主菜单，日志显示 Load successful；中文显示、对话/任务布局、存读档未验收，不宣称全流程通过。
 - 测试设置：临时启用 StartWindowed=1、CreateLogFile=1，原设置备份位于 Repack；全屏模式下原版与测试版均出现快速退出。主菜单按钮仍为英文图片，需另行处理。
+- 图片文字推进：已从01_local定位117个menu资源，整理36组/88个有字按钮状态及2个退出标题。AI图集候选因错字、位置变化与透明边缘伪影被拒绝，未部署；标签映射和检查记录在 `prepare_ui_atlas.py` / `Repack/ui_review.md`。中文字体与游戏内流程仍待验收。
 
 ## 已知问题
 - DRPK 重建、双重解包与启动加载已验证；实际中文资源显示及剧情覆盖仍待游戏内验证。
