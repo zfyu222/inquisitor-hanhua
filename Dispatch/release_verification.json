@@ -1,8 +1,9 @@
 {
   "archive": "Inquisitor_子非鱼汉化1.0.zip",
-  "size": 4355493,
-  "sha256": "c364dc8a77e5aac0f4d74183ccc062dd4deea9f06a98230036add9a7456c266a",
+  "size": 4355238,
+  "sha256": "db09066da87d3c63d13d85bc18975fd453e3942a4de79589793c99578fffd03e",
   "payload_sha256": "3164493a2bb1ce571709d86f3fc438c61ec47b06629436fc90851f448b55b2e2",
   "zip_crc_and_extracted_hashes": "passed",
-  "gameplay_testing": "User requested release without further gameplay testing."
+  "gameplay_testing": "User requested release without further gameplay testing.",
+  "documentation_revision": "Removed window/display settings advice; localization payload unchanged."
 }
