@@ -98,8 +98,9 @@
 - 载荷 SHA-256：`3164493a2bb1ce571709d86f3fc438c61ec47b06629436fc90851f448b55b2e2`。
 - 验证：ZIP CRC、解压路径、清单、SHA256SUMS及解压后载荷哈希通过；849份资源独立解包已验证。中文菜单、序章正文和修复后的字形/标点已确认。用户明确要求不再继续检测而直接发布，未补做全流程或存读档测试。
 - 已知问题：AI译文未全文逐句精校；部分装饰文字仍为英语，其他界面/长文本/禁用按钮状态未完整测试；测试环境原版和补丁版全屏均出现退出，窗口模式可启动。详细安装、卸载及限制见 `Dispatch/补丁说明.txt`。
-- GitHub Release：https://github.com/zfyu222/inquisitor-hanhua/releases/tag/v1.0 （上传完成后记录状态）。
-- 百度网盘：目标 `/Hanhua/Inquisitor/Inquisitor_子非鱼汉化1.0.zip`，上传状态待记录。
+- GitHub Release：https://github.com/zfyu222/inquisitor-hanhua/releases/tag/v1.0 ，公开发布、非草稿、非预发布并设为最新版本。上传后重新下载，SHA-256与本地ZIP一致。
+- GitHub资产：`Inquisitor_ZiFeiYu_Chinese_1.0.zip`，显示标签为 `Inquisitor_子非鱼汉化1.0.zip`；GitHub会规范化中文文件名，分发内容与本地中文名ZIP完全相同。
+- 百度网盘：目标 `/Hanhua/Inquisitor/Inquisitor_子非鱼汉化1.0.zip`；MCP `ensure_directory` 创建 `/Hanhua` 时返回 `errno -6`，本次镜像失败，未调用删除旧版本或上传。需修复网盘授权后再同步；结果记录在 `Dispatch/baidu_mirror_result.json`。
 
 ## 版本记录
 - 2026-10-11 - 初始化 Projects/inquisitor，建立安装根目录 junction、独立 Git 仓库与档案。
@@ -116,3 +117,4 @@
 - 2026-10-13 - IDA 核实资源加载、索引排序、字体与 NPCName；构建独立汉化测试包，回填61204处、补齐3429字形、759份资源双重解包通过。部署并启动主菜单，中文显示与流程验收待完成。
 - 2026-10-13 - 按用户明确要求用程序制作90份中文菜单图片，保留原TGA格式；849份资源双重解包通过，安装新包并在游戏主菜单确认中文按钮显示，正文验收仍待完成。
 - 2026-10-13 - 修复中文字形和标点垂直位置并重绘破折号/省略号；用户目视复查确认正常，后续对话、任务、物品与存读档仍待检查。
+- 2026-10-13 - 按用户要求不再继续检测，生成v1.0补丁并通过解压/哈希校验，创建独立公开仓库并发布GitHub最新稳定Release；重新下载与本地ZIP一致。百度网盘MCP创建目录返回errno -6，镜像未完成，未删除旧文件。

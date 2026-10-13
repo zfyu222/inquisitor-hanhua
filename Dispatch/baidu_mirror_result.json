@@ -1,0 +1,7 @@
+[
+  {
+    "status": "error",
+    "tool": "ensure_directory",
+    "message": "创建目录失败 /Hanhua: errno -6"
+  }
+]
