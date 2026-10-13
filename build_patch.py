@@ -22,6 +22,7 @@ WORK = ROOT / 'Repack'
 XOR = bytes(x ^ 0x4a for x in range(256))
 FONT = Path('C:/Windows/Fonts/simhei.ttf')
 GLYPH = re.compile(r"Character='(.)' (.*)")
+REDRAW_PUNCTUATION = set('—…')
 
 def sha(data):
     return hashlib.sha256(data).hexdigest()
@@ -71,10 +72,12 @@ def make_fonts(characters):
             match = GLYPH.fullmatch(line)
             if match:
                 existing.add(match[1])
+                if match[1] in REDRAW_PUNCTUATION and match[1] in characters:
+                    continue
                 for field, factor in [('u1', oldw / 2048), ('u2', oldw / 2048), ('v1', oldh / 2048), ('v2', oldh / 2048)]:
                     line = re.sub(rf'\b{field}=([0-9.]+)', lambda m: f'{field}={float(m[1])*factor:.10f}', line)
             lines.append(line)
-        missing = sorted(characters - existing - set('\r\n\t'), key=ord)
+        missing = sorted((characters - existing - set('\r\n\t')) | (characters & REDRAW_PUNCTUATION), key=ord)
         unsupported = [char for char in missing if ord(char) not in cmap]
         assert not unsupported, f'Font coverage missing: {unsupported!r}'
         font = ImageFont.truetype(str(FONT), size)
@@ -87,7 +90,9 @@ def make_fonts(characters):
             y = oldh + (index // columns)*height
             advance = max(1, round(font.getlength(char)))
             # A two-pixel border protects sampling; preserve the existing line height.
-            draw.text((x+2, y+3), char, font=font, fill='white', anchor='lt')
+            # Keep the font's vertical bearings. Ink-top alignment incorrectly
+            # raises low/short glyphs such as 一, Chinese commas and full stops.
+            draw.text((x+2, y+3), char, font=font, fill='white', anchor='la')
             lines.append(f"Character='{char}' u1={x/2048:.10f} v1={y/2048:.10f} u2={(x+cellw)/2048:.10f} v2={(y+height)/2048:.10f} WidthA=0 WidthB={advance} WidthC=1 ScreenRectLeft=-2 ScreenRectTop=0 ScreenRectRight={cellw-2} ScreenRectBottom={height} CharAscent=0")
         result[f'local/fnt/{name}.bfi'] = ('\r\n'.join(lines)+'\r\n').encode('utf-16')
         assert all(c in existing or c in missing or c in '\r\n\t' for c in characters)
@@ -99,7 +104,10 @@ def make_fonts(characters):
             preview = Image.new('RGB', (600, height*3), 'black')
             ImageDraw.Draw(preview).text((4, 4), '审判官：新游戏、读取存档、设置、退出\n艾尔达、圣堂武士、生命值、魔法值', font=font, fill='white')
             preview.save(WORK / f'font_preview_{name}.png')
-        report.append(dict(font=name, original_glyphs=len(existing), added_glyphs=len(missing), atlas=[2048,2048], point_size=size))
+        redrawn = characters & existing & REDRAW_PUNCTUATION
+        report.append(dict(font=name, original_glyphs=len(existing), added_glyphs=len(missing)-len(redrawn),
+                           redrawn_glyphs=sorted(redrawn), vertical_alignment='shared font ascender (la)',
+                           atlas=[2048,2048], point_size=size))
     return result, report
 
 def pack(resources, path):

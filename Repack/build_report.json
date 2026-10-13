@@ -1,7 +1,7 @@
 {
   "overlay": "D:\\StaticHanHua\\Projects\\inquisitor\\Repack\\Files\\Game\\03_zh.dat",
-  "overlay_sha256": "d79b1672c66553661271d6c4ac2e9420665c8b54cce5de12a0ceeff9de7e0a69",
-  "overlay_bytes": 40784692,
+  "overlay_sha256": "3164493a2bb1ce571709d86f3fc438c61ec47b06629436fc90851f448b55b2e2",
+  "overlay_bytes": 40784708,
   "translated_locations": 61204,
   "resources": 849,
   "roundtrip_verified": 849,
@@ -10,6 +10,11 @@
       "font": "Nosferatu",
       "original_glyphs": 260,
       "added_glyphs": 3429,
+      "redrawn_glyphs": [
+        "—",
+        "…"
+      ],
+      "vertical_alignment": "shared font ascender (la)",
       "atlas": [
         2048,
         2048
@@ -20,6 +25,11 @@
       "font": "NosferatuS",
       "original_glyphs": 324,
       "added_glyphs": 3429,
+      "redrawn_glyphs": [
+        "—",
+        "…"
+      ],
+      "vertical_alignment": "shared font ascender (la)",
       "atlas": [
         2048,
         2048
@@ -30,6 +40,11 @@
       "font": "NosferatuSBlack",
       "original_glyphs": 324,
       "added_glyphs": 3429,
+      "redrawn_glyphs": [
+        "—",
+        "…"
+      ],
+      "vertical_alignment": "shared font ascender (la)",
       "atlas": [
         2048,
         2048
@@ -793,11 +808,11 @@
     "local/dlg/ZnesvecenyHrob_pri.dlt": "582c084e324560013fe49ec6a586bbf577510b568c9a709a7626f0b695912db7",
     "local/dlg/ZnesvecenyHrob02_pri.dlt": "65af90332570215a1cca8060d778f0d010165b62e8d2d82191129eadbbd0ea43",
     "local/dlg/ZnesvecenyHrob03_pri.dlt": "15339ff4b7e2750605c8b8b03c65a2b537537202d37a2078f8b51d250b31c6b4",
-    "local/fnt/Nosferatu.bfi": "d4035fa50bd441b200f8a53812c983acd41e618a8a531bf9f30df697848c348d",
-    "local/fnt/Nosferatu.bmp": "45d77644042ff8d7895872ec981ec9697da646a6b0fb1be649d80b8d949e744c",
-    "local/fnt/NosferatuS.bfi": "fad2acae226a2573e4a7ef24f319c32a5773c22c54a4ce0ec0163b35f1ef1f3c",
-    "local/fnt/NosferatuS.bmp": "43a58355ece40279f09d740631236359f91bb1259778fa9651227be6c6d4e434",
-    "local/fnt/NosferatuSBlack.bfi": "3027d015bc61689bdf83743a6dab388a48e6dbd9e9007d2c8c9b74051bec4d25",
+    "local/fnt/Nosferatu.bfi": "6b8a5b80f5acba9c188b5d7e2fe14e1b531232dca973f86f0040cfb6c218788f",
+    "local/fnt/Nosferatu.bmp": "afa6b0ed46409f0c5bf9077bd9fa69ce31928349457b54a6536cab33d8098601",
+    "local/fnt/NosferatuS.bfi": "c78539d1c31e1e77bf8fdbb578f3edaea80aa774b8c208762d801e56b85e12d1",
+    "local/fnt/NosferatuS.bmp": "cf237143ebccfc7a1e627aeb287cf4866a4f10853e3054f69492044e5c5867c9",
+    "local/fnt/NosferatuSBlack.bfi": "c584def1701f1086285caecd630440207910a62ed544b1987a9e7d717304c9ff",
     "local/menu/act_ok_lock.tga": "63f995be9f4e1d2cadebf6e77145dc3dc53f94bcd77f2f9ad3a93eb7fa26f72b",
     "local/menu/act_ok_normal.tga": "406c6e2c6091d615d8d48ff72984782b07cf8090d375f43907bb982817fadd7d",
     "local/menu/attribute_button_main_lock.tga": "8706d9010f6f86a7cfdeed56c7a9afbb5f6a815e1374db057bb5df496ca243a4",
@@ -892,6 +907,18 @@
   "menu_images": 90,
   "source_csv_sha256": "8b7620ea7e7723d749b57a0a428675e50079093e2fb9d9fe2a006465885c0d50",
   "target_csv_sha256": "de57ef953773fb02d5b29bfe1f489f4d7f32989705446a83df27f99179827720",
-  "game_verification": "Chinese main menu displayed successfully after deployment; dialogue/font/layout/save/load runtime verification pending.",
-  "quickbms_roundtrip_verified": 849
+  "game_verification": "Pending: this script does not deploy or launch the game.",
+  "quickbms_roundtrip_verified": 849,
+  "font_alignment_fix": {
+    "changed_resources": [
+      "local/fnt/nosferatu.bfi",
+      "local/fnt/nosferatu.bmp",
+      "local/fnt/nosferatus.bfi",
+      "local/fnt/nosferatus.bmp",
+      "local/fnt/nosferatusblack.bfi"
+    ],
+    "csv_unchanged": true,
+    "preview": "Repack/font_alignment_comparison.png",
+    "runtime": "Pending installation and in-game verification"
+  }
 }
