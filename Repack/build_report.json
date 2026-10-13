@@ -919,6 +919,6 @@
     ],
     "csv_unchanged": true,
     "preview": "Repack/font_alignment_comparison.png",
-    "runtime": "Pending installation and in-game verification"
+    "runtime": "User visually confirmed corrected characters/punctuation look normal on 2026-10-13; dialogue, journal, inventory and save/load checks pending."
   }
 }

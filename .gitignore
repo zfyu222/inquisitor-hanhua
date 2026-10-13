@@ -43,3 +43,9 @@ Desktop.ini
 .DS_Store
 .vscode/
 .idea/
+
+# 发布载荷和压缩包仅用于分发，不提交游戏二进制
+/Dispatch/*.zip
+/Dispatch/Files/
+/Dispatch/verification_*/
+/Dispatch/download_check/
