@@ -1,0 +1,1897 @@
+{
+  "font": "C:\\Windows\\Fonts\\simsun.ttc",
+  "resources": [
+    {
+      "label": "确定",
+      "box": [
+        54,
+        7,
+        116,
+        36
+      ],
+      "font_size": 23,
+      "size": [
+        179,
+        44
+      ],
+      "bits": 16,
+      "source_sha256": "86dc71621354b572b450472a4a4453fdfe0263070f46ecbd27d212741e105b3d",
+      "sha256": "406c6e2c6091d615d8d48ff72984782b07cf8090d375f43907bb982817fadd7d",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/act_ok_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "确定",
+      "box": [
+        54,
+        7,
+        116,
+        36
+      ],
+      "font_size": 23,
+      "size": [
+        179,
+        44
+      ],
+      "bits": 16,
+      "source_sha256": "8d7dbc01a6ed7143899ca05479ae1866b081e0b7565d598dda29b33404522d3b",
+      "sha256": "63f995be9f4e1d2cadebf6e77145dc3dc53f94bcd77f2f9ad3a93eb7fa26f72b",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/act_ok_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "主菜单",
+      "box": [
+        26,
+        5,
+        227,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        249,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "60d4320f576e113a5f4c405ddc200c5990f1ff9625f18aa8d5158fb8f9adc3c5",
+      "sha256": "4d95b3bc3c1afc8396c045c9cd33d55508c531d2d5b6be449a58b011feef4ec7",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/attribute_button_main_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "主菜单",
+      "box": [
+        26,
+        5,
+        227,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        249,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "c1763ec71d837ef03a416da80f81c5845de4bb2e3a4c8c85d9ac9ffa7859e4ca",
+      "sha256": "8706d9010f6f86a7cfdeed56c7a9afbb5f6a815e1374db057bb5df496ca243a4",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/attribute_button_main_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "开始游戏",
+      "box": [
+        26,
+        5,
+        226,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        248,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "cdfb9a04b27597be0ad762f7c6f012893860081599d6a4266bd87633889c556c",
+      "sha256": "8c3393c5db0aa151d90c01b1af70ef15a8be86047b2a1b4cfc3ef7cc9c2e4cdf",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/attribute_button_start_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "开始游戏",
+      "box": [
+        26,
+        5,
+        226,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        248,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "6d23b482c26ee2a792e5eae58627bf32ba63aaa13cb0a64c3ef9052a0ff99f1a",
+      "sha256": "1bdc4f9444d2fa8816db71c46fed7cd7053b4b996e376a01932f2f55a8c707a8",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/attribute_button_start_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "开始游戏",
+      "box": [
+        26,
+        5,
+        226,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        248,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "0daf84f2c59e8e5755bb3f5843e6125701dc379953fdf425a07a318b1f423d5c",
+      "sha256": "71d0b302dd6878b5460e946426e7db1b01a7a79921f49c878ecf920254763e3f",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/attribute_button_start_unuse.tga",
+      "state": "unuse"
+    },
+    {
+      "label": "音频",
+      "box": [
+        26,
+        5,
+        206,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        228,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "1927613a36f02c7879a924eb5c7dfafd9af0f83816e2efd5c240c4ee3d791768",
+      "sha256": "0d9221e5bef6f694b3e385a00710e7b83664187431aca95184d0fb2c3cd1168d",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/audio_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "音频",
+      "box": [
+        26,
+        5,
+        206,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        228,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "d845312897b3db49b8bd0add4862c0461e465dc84aff9db9bb9177f52385c770",
+      "sha256": "3e5f3ba655c9117cdd8b53f6ffd72198ae0d636d9cdd54d5a256e4ab7e883f19",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/audio_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "返回",
+      "box": [
+        43,
+        13,
+        132,
+        40
+      ],
+      "font_size": 23,
+      "size": [
+        184,
+        53
+      ],
+      "bits": 16,
+      "source_sha256": "cee3ed0a63ebcd9a968045f8bc59c13ea0672dd43570c105edd2ce834d09b757",
+      "sha256": "c526a5fa4bc1386dda38f6e3178f4ec38b2356b6c6d45b9ca17cc89db40c955d",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/automap_back_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "返回",
+      "box": [
+        43,
+        13,
+        132,
+        40
+      ],
+      "font_size": 23,
+      "size": [
+        184,
+        53
+      ],
+      "bits": 16,
+      "source_sha256": "6b942740eb16601fa0a4d6b59f68118bf70a6da76fb9ecd15326787b6fd86134",
+      "sha256": "4bad7cf3e3b04194a34147e9d31752009ee1ed6fd4f9bf75f41179eb1678cad0",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/automap_back_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "过场动画",
+      "box": [
+        26,
+        5,
+        206,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        228,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "b50f384c988d687cde3fc4bf64a2f1a322913117d6f1d6df1f2faa1963e46143",
+      "sha256": "b8d794f0a796930e26b6ba08cf069eb62d73319bdc85a7e96bcdd5bc65691953",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/cinematics_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "过场动画",
+      "box": [
+        26,
+        5,
+        206,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        228,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "337608a95286078a25690a5990caf5d4cfbe925ce480876d45f34e806b861ce0",
+      "sha256": "3113a3c9e0bf55656ff638858dd8d9bced728bf837ab5b7fdd5cdf3e300a2f8f",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/cinematics_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "操作",
+      "box": [
+        26,
+        5,
+        206,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        228,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "813d7f7034fea3faf0b00afb96a3a3da30eef3edfda2686af987f39b83afd9eb",
+      "sha256": "2e91be36d42e5e2068c69e01a878cf9b6056490faf6a6654732dfcc02f9e3829",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/controls_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "操作",
+      "box": [
+        26,
+        5,
+        206,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        228,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "6c1b76479225ea9429241a4cac64e83472cea1448af3405c58b2186e7bc1397f",
+      "sha256": "ebe03bbfb0f67e7fe342c28c6b9a2f15981ca8c014e5c42c8c364921f892cf32",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/controls_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "制作人员",
+      "box": [
+        26,
+        5,
+        209,
+        36
+      ],
+      "font_size": 23,
+      "size": [
+        231,
+        41
+      ],
+      "bits": 16,
+      "source_sha256": "c85a450d5ab46389f6a05a780dd576ace673c7e99d1715dd36a977d2798782aa",
+      "sha256": "d0bfb7e4c4fd6f900408f08d121aebfcf0c139ec61eb8febe9f9e3b185fb58ba",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/credits_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "制作人员",
+      "box": [
+        26,
+        5,
+        209,
+        36
+      ],
+      "font_size": 23,
+      "size": [
+        231,
+        41
+      ],
+      "bits": 16,
+      "source_sha256": "b781224842865ad8687b396bff93857f305a7d2c79d5eb0f65ffda5ce57aab7e",
+      "sha256": "b58a25ccc2cdb5f69fcd35a783ca95d1c72c696a78f5faae2facfd7b4259d29a",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/credits_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "制作人员",
+      "box": [
+        26,
+        5,
+        209,
+        36
+      ],
+      "font_size": 23,
+      "size": [
+        231,
+        41
+      ],
+      "bits": 16,
+      "source_sha256": "2666f9f6827b70c0577ebc4117126c7714603c39598f9f601131c3d3aee526c5",
+      "sha256": "586bfdcf5d941e811f15be0afa7edd7457d75af1a48ddcc79109eaa607e7fecd",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/credits_unuse.tga",
+      "state": "unuse"
+    },
+    {
+      "label": "简单",
+      "box": [
+        26,
+        5,
+        158,
+        35
+      ],
+      "font_size": 23,
+      "size": [
+        180,
+        40
+      ],
+      "bits": 16,
+      "source_sha256": "baf3187277ad37fef6b462652624edcc45484489d5fb2682d7aa6f21b3615c9d",
+      "sha256": "01e47a4dc2374bef41078ac41c9dccf88a653901f8e3ed595f9e3ee4d71ad31c",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/easy_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "简单",
+      "box": [
+        26,
+        5,
+        158,
+        35
+      ],
+      "font_size": 23,
+      "size": [
+        180,
+        40
+      ],
+      "bits": 16,
+      "source_sha256": "388ca36218c909fe4071ced87c8e5b36cf5a6ea292404b6ebdfa3dfc98970002",
+      "sha256": "1852378851a9336b90b699cffe353364d19178d2eb896f9c98ccb9abe8cd62a2",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/easy_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "退出",
+      "box": [
+        22,
+        6,
+        96,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        184,
+        40
+      ],
+      "bits": 16,
+      "source_sha256": "bffbc423c8106bad8d7b368918c128997db4cf309300a48998b762e9f56297ed",
+      "sha256": "e6688b0536c1fa8482185b7832533e861232848bb6ff58eefa3f720eb6df4fe1",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/exit_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "退出",
+      "box": [
+        22,
+        6,
+        96,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        184,
+        40
+      ],
+      "bits": 16,
+      "source_sha256": "66b573edcfc012b92200dbec3ec93f6de15ad4790e26b1d3e24c968db2a717b8",
+      "sha256": "33d94a4f9498d41989d12738eda62a41be0ffc55c60f19faa9aa13ffcfcc6bca",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/exit_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "退出",
+      "box": [
+        22,
+        6,
+        96,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        184,
+        40
+      ],
+      "bits": 16,
+      "source_sha256": "906aa5dfbe2f11f0e3c59ef2b7dad933cbc64791cee8b935a7595b66512bf213",
+      "sha256": "7c89e9d239d784c48814f06d824b0bfa346ab577dc6e859906dd84ab3df65e58",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/exit_unuse.tga",
+      "state": "unuse"
+    },
+    {
+      "label": "删除",
+      "box": [
+        26,
+        5,
+        144,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        166,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "3f49cb7eead4cc4f50126a4dd88b875b81386abda82377c6dc27257de7e9262d",
+      "sha256": "b105172385df0a6193d9569e306a9cbd10fc08946f8ae8dbb637786737da4e11",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/game_delete_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "删除",
+      "box": [
+        26,
+        5,
+        144,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        166,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "8a215dad245924d837902051e9e84cc8ac25f3cd0604cf378b9ad386168f45c5",
+      "sha256": "39e104ff1cc64c427d4b60252dd3e76e4eb0c162b5c051c8fdfd677d3c7ca028",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/game_delete_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "删除",
+      "box": [
+        26,
+        5,
+        144,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        166,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "1cd818e67e265a83f0deb5884fb20998726cd9ddddb4295c43c93d92a233b588",
+      "sha256": "d19f55a1898dd15d419328556f67450be06fb5b3294ad16032ac87abeec5a913",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/game_delete_unuse.tga",
+      "state": "unuse"
+    },
+    {
+      "label": "读取",
+      "box": [
+        26,
+        5,
+        145,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        167,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "a2f8bc467d93867591653dd2d80f0eee4de62cd9e11aa77158ebe5b383ebbe12",
+      "sha256": "a6dd798c5da06150047884506ceb40b30b745fee1508cbd86304ce6c5bb5f3e2",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/game_load_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "读取",
+      "box": [
+        26,
+        5,
+        145,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        167,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "5688bc64da8653301b38661c253a59611b6c63a290fb2ff5ab0ee8fe7e6b0838",
+      "sha256": "f750360da7a6295b06e7064e4c9a35a4f8443bb931f60886d973c51b3a000fdd",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/game_load_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "读取",
+      "box": [
+        26,
+        5,
+        145,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        167,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "6beb248a0f4c721823e451813a1f0c2a33aca01e595e3ccc7933a84f6d34ce5e",
+      "sha256": "6724953570fb863f482c3666408b0f0bf58e886cffdfb04eb6e63a98f7823c77",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/game_load_unuse.tga",
+      "state": "unuse"
+    },
+    {
+      "label": "否",
+      "box": [
+        26,
+        5,
+        100,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        122,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "807c04e2cb981d0231c59fd853dac799a1707d4f6b9f4c6155a884bdf107965e",
+      "sha256": "6a055ac65b0dabf0c5a66b50eb42a7251e836ebcbd5fed2ee79b819af95c0f62",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/game_no_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "否",
+      "box": [
+        26,
+        5,
+        100,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        122,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "5bd00bb0450ddb1e560d328877f6efe2683403aa6964723591b4e6ca5465e069",
+      "sha256": "aa51642123023fc76be5466d4b77a33a1539baaa6b2b8b939612a0b346f7e6eb",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/game_no_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "否",
+      "box": [
+        26,
+        5,
+        100,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        122,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "8cd5d23163c90d5b67cef67d6e5f68a7c6176a8e802d105e5e820167c869924e",
+      "sha256": "e1ffd0055af758e6a1dfbb8889f3aade9bc228127df502786ef375caffaf28b0",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/game_no_unuse.tga",
+      "state": "unuse"
+    },
+    {
+      "label": "保存",
+      "box": [
+        26,
+        5,
+        145,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        167,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "38104da6ab97b40cbcb9e7a8ceefe19b84360b8228cb226687088bc270080e74",
+      "sha256": "afb3f73fbfc5557ad17fdc9185098df69b4d9d4c9af88a6efd5a82a9bf1919f1",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/game_save_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "保存",
+      "box": [
+        26,
+        5,
+        145,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        167,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "d0b3fae7f9c41484fa59ccd5194818d423be86137f4ae94b01db2b6fceb10207",
+      "sha256": "200a3b81ca9a1702629029998671e1c3fc472752967ff0a9c9c909b458e64891",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/game_save_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "保存",
+      "box": [
+        26,
+        5,
+        145,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        167,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "6899c58e1c94e420d96f6990d6b7445ec7c50e6565b70a6c75bbf81ffe588470",
+      "sha256": "078b5c2cc7fee4bb95008a174782fd8a37812e94e34eb64593c38996c7e8cbf5",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/game_save_unuse.tga",
+      "state": "unuse"
+    },
+    {
+      "label": "是",
+      "box": [
+        26,
+        5,
+        101,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        123,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "893d5e04dc20a978bd1036ee6bb2c844376465f9491edcb1ff8458ed767c67ec",
+      "sha256": "32ca68d70b5e9722473dda9cd7351cd5b4e424a4043db2f0eff327df7a8ec05e",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/game_yes_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "是",
+      "box": [
+        26,
+        5,
+        101,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        123,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "04128b1e0d6a46f0f2eee9254ca4956380ec6be9e8cee12a0b2734ff5da739d2",
+      "sha256": "a2841f877ee2dc53c10c35a80680bbcac38d13ef05eefb969cf6d95ed757f161",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/game_yes_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "是",
+      "box": [
+        26,
+        5,
+        101,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        123,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "af6ec6c44bb0fa4012214334129f99e733f5547bb7119de2f39eef48b3370ef8",
+      "sha256": "ef6946b033a0c844133266e34b00e438a40edf52b83504e7723ba210f33d2c2e",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/game_yes_unuse.tga",
+      "state": "unuse"
+    },
+    {
+      "label": "困难",
+      "box": [
+        26,
+        5,
+        158,
+        35
+      ],
+      "font_size": 23,
+      "size": [
+        180,
+        40
+      ],
+      "bits": 16,
+      "source_sha256": "076e61e50c98837331d2d8cf84802aa8fbe2d8df0cd48a99ad38c7f776ae4f46",
+      "sha256": "237eb4d646e246c146e0ef568221acbd82b2c5c9d8ad9375693c498c28b25faa",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/hard_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "困难",
+      "box": [
+        26,
+        5,
+        158,
+        35
+      ],
+      "font_size": 23,
+      "size": [
+        180,
+        40
+      ],
+      "bits": 16,
+      "source_sha256": "ec702610d9cc121e812fcefe451bde564bd97b053a57aec0686df47709882d43",
+      "sha256": "45d38c587994f25be96083ed8909b72cbda0b4d66503853b01a9b9d066ff5524",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/hard_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "读取存档",
+      "box": [
+        26,
+        5,
+        203,
+        35
+      ],
+      "font_size": 23,
+      "size": [
+        225,
+        40
+      ],
+      "bits": 16,
+      "source_sha256": "df215a97470407bd5389f63d9323d3a36e75befaeb95cfb581e22fe4ae96b2c9",
+      "sha256": "ef44ea40dfeb68a05edb6162fc075d9e44f2933122ee43e833586e2c263af1ab",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/load_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "读取存档",
+      "box": [
+        26,
+        5,
+        203,
+        35
+      ],
+      "font_size": 23,
+      "size": [
+        225,
+        40
+      ],
+      "bits": 16,
+      "source_sha256": "fcfa150b7f81d02f90d15717aa00b8079ae1063f577c60817b7e5f522de375a4",
+      "sha256": "655cdb662bd5bcb7c7a08bbaa703d190129f3e105d999ff583b98a86e86c2ed4",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/load_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "读取存档",
+      "box": [
+        26,
+        5,
+        203,
+        35
+      ],
+      "font_size": 23,
+      "size": [
+        225,
+        40
+      ],
+      "bits": 16,
+      "source_sha256": "ca1ee0c0a1527c2db2787ce727e64add9236b4d64b81b918270a4e1b7c37346c",
+      "sha256": "b0292071d7c83725bf63234d9bc17e0273918efd97f910f0aef5ce4d13c5fc4a",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/load_unuse.tga",
+      "state": "unuse"
+    },
+    {
+      "label": "普通",
+      "box": [
+        26,
+        5,
+        158,
+        35
+      ],
+      "font_size": 23,
+      "size": [
+        180,
+        40
+      ],
+      "bits": 16,
+      "source_sha256": "19209592727b72b90b4c237126163e90fa7f11467ea418747281b1a3039fc673",
+      "sha256": "0aed76839362158d2463b40d419a23b769546f8b2717ca0bc19a5da58611d4d8",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/medium_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "普通",
+      "box": [
+        26,
+        5,
+        158,
+        35
+      ],
+      "font_size": 23,
+      "size": [
+        180,
+        40
+      ],
+      "bits": 16,
+      "source_sha256": "b8fddeefd37464237bcc16cd0dd1851cdcc964633ea5d1195c170e7165d38cca",
+      "sha256": "c0704db1eeb09352b7db26de15586bb21ea5e6b1d7a7d3c20e7d931fc538f8e1",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/medium_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "多人游戏",
+      "box": [
+        26,
+        5,
+        238,
+        35
+      ],
+      "font_size": 23,
+      "size": [
+        260,
+        40
+      ],
+      "bits": 16,
+      "source_sha256": "fb32f70a6d84cef30c89752016f16e0975345587ae06931513a8e05cb9a6fa7f",
+      "sha256": "1bf1d3a14a3d437269a90cdc575f03eecf1a0d838d83dc36e1df4c8ffcb5402a",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/multiplayer_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "多人游戏",
+      "box": [
+        26,
+        5,
+        238,
+        35
+      ],
+      "font_size": 23,
+      "size": [
+        260,
+        40
+      ],
+      "bits": 16,
+      "source_sha256": "6555f38f3cc8f073d82951f556fd6484cda97dd2411f4d69065529e1170ed920",
+      "sha256": "c9c13d1e405b0813f3f13366273838b805fd4a85cc42240a3f31dd5d6e27479c",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/multiplayer_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "多人游戏",
+      "box": [
+        26,
+        5,
+        238,
+        35
+      ],
+      "font_size": 23,
+      "size": [
+        260,
+        40
+      ],
+      "bits": 16,
+      "source_sha256": "0e23b0ae0c540e6dbdb170561864c6a138636a74560dcb6a8e3c626ba157b022",
+      "sha256": "e5364ac17f80274572fb1cd2167117ec212698aa7da9411b49047cf50c8f546e",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/multiplayer_unuse.tga",
+      "state": "unuse"
+    },
+    {
+      "label": "新游戏",
+      "box": [
+        26,
+        5,
+        218,
+        35
+      ],
+      "font_size": 23,
+      "size": [
+        240,
+        40
+      ],
+      "bits": 16,
+      "source_sha256": "8f3be688dae8212a9ec7b1b176412b5b54e2ac4710ff5a1bfe27584fed12447c",
+      "sha256": "d768c1c4780889a0e28a0aa8d6657165605bbea9e4d1e0defda9bad92ff15d98",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/new_game_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "新游戏",
+      "box": [
+        26,
+        5,
+        218,
+        35
+      ],
+      "font_size": 23,
+      "size": [
+        240,
+        40
+      ],
+      "bits": 16,
+      "source_sha256": "9f6d9ba8aff6bb9bba5b766fce4cff111d8a18766dcbab278804953dfc6c93c2",
+      "sha256": "56f33478c02705e4767f09628aff19ef77fb33db1a6b10891380e2248620f7a0",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/new_game_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "新游戏",
+      "box": [
+        26,
+        5,
+        218,
+        35
+      ],
+      "font_size": 23,
+      "size": [
+        240,
+        40
+      ],
+      "bits": 16,
+      "source_sha256": "3b96750d6cff64655904591432004b180cde92d89237e546e5bfd1758101a098",
+      "sha256": "60e50c238ed1d785e5007557d84485ea3ad5cf971e7b652b3653284ce75d3391",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/new_game_unuse.tga",
+      "state": "unuse"
+    },
+    {
+      "label": "返回",
+      "box": [
+        26,
+        5,
+        142,
+        33
+      ],
+      "font_size": 23,
+      "size": [
+        164,
+        38
+      ],
+      "bits": 16,
+      "source_sha256": "38064744cb461603f6e81953a18c6c48242be7969cdedb9a9ab6aa2154f7a4d9",
+      "sha256": "0cb51e5058756b2d09c4d38aafdf10c8d99d08338122fb20a2afe16a4735bd7c",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/options_back_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "返回",
+      "box": [
+        26,
+        5,
+        142,
+        33
+      ],
+      "font_size": 23,
+      "size": [
+        164,
+        38
+      ],
+      "bits": 16,
+      "source_sha256": "fccd8f7599d534984e0a8c6b6fb0f831a2fc0a8d935ec30f9ab359263895626f",
+      "sha256": "d6066b68ff48620a3d59b81db073b47963527d784061fc8948e8830c540bf24d",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/options_back_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "返回",
+      "box": [
+        26,
+        5,
+        145,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        167,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "425b1caa55e8c8aca614c05fe5cb96666b321458aa98038466b4dfe45c68bd9d",
+      "sha256": "7cbf79958aff50f66f38401b511f1c505bc181a2540451f8ff886377389a4d79",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/options_cinematics_back_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "返回",
+      "box": [
+        26,
+        5,
+        145,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        167,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "a9c30668f51a9c97de3f3f2a7cab1b72147c0bba86194ecd643e0eb09abd6b48",
+      "sha256": "2f53f5d2029e55d69f7b9ae7f567d703e9ed5779a0da01c2ecbcc057b83dd54d",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/options_cinematics_back_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "返回",
+      "box": [
+        26,
+        5,
+        145,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        167,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "844e66de49ce43c1e25a89a4b7819fc0a14e727f5b8ec9615da0aa004b226b7a",
+      "sha256": "23ffa4ff0bc1fbac45bfbd429fc66b6fd07b7856d344d035cbbea215dda84089",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/options_cinematics_back_unuse.tga",
+      "state": "unuse"
+    },
+    {
+      "label": "播放",
+      "box": [
+        26,
+        5,
+        144,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        166,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "170c11e92db3b240e26dc4fae96495f891e7a2710be847b711c0f5f2614b3ceb",
+      "sha256": "bbb1661f52eda30b21162092aa89f3efe6ab5761fafc5b3f230c9f6f47e806f6",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/options_cinematics_play_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "播放",
+      "box": [
+        26,
+        5,
+        144,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        166,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "af8f273023f8cda7ee922ece48bbfddfae8a379f14f555b06c57393ce1da6c87",
+      "sha256": "4b25ce0aeb9d9f8d819708856053bdae0fc383f79bf4e326244dab6119dd9efb",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/options_cinematics_play_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "播放",
+      "box": [
+        26,
+        5,
+        144,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        166,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "6409a9fc673e2a69747e1517b28b8033442ef61783e3403b57335654a30aab56",
+      "sha256": "9261f806bfb54c68e3c878a3c2b89f239050277d87a45b8b278cc2f879f16b0b",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/options_cinematics_play_unuse.tga",
+      "state": "unuse"
+    },
+    {
+      "label": "默认",
+      "box": [
+        14,
+        5,
+        152,
+        33
+      ],
+      "font_size": 23,
+      "size": [
+        164,
+        38
+      ],
+      "bits": 16,
+      "source_sha256": "2226fe2dc6d0d99a0cb4534c926a7c3bffce6e149dcdccda6ef4ed321f9dc1d0",
+      "sha256": "6e1f681b3308680daf36c6ba318017ec51c97f63b37474e6c334d6dee80da8b0",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/options_default_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "默认",
+      "box": [
+        14,
+        5,
+        152,
+        33
+      ],
+      "font_size": 23,
+      "size": [
+        164,
+        38
+      ],
+      "bits": 16,
+      "source_sha256": "be31d42c1f3caa7ae67cde81ebecdbfae8805c84ff3a561bd90c5c13ecfffcff",
+      "sha256": "d7c7aeccfb62da9fce70ddc70848bfaeae8dcd7d7791f71a143631fea845d323",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/options_default_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "设置",
+      "box": [
+        26,
+        5,
+        209,
+        36
+      ],
+      "font_size": 23,
+      "size": [
+        231,
+        41
+      ],
+      "bits": 16,
+      "source_sha256": "9318bd58d7995d0b724d3070e2ee6631b8523892e4ad36ca8dd7a4147264ff0e",
+      "sha256": "95953c9ef760af078dd01361963b830c8ad1ef82f6ae7a2fc261fb5868a5f0dd",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/options_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "设置",
+      "box": [
+        26,
+        5,
+        209,
+        36
+      ],
+      "font_size": 23,
+      "size": [
+        231,
+        41
+      ],
+      "bits": 16,
+      "source_sha256": "cb82ec7b5ffb279bbb7c5dc10254a8f97833a8c435af2019aae8a3dcfdf517aa",
+      "sha256": "c42dc545bdf6c3db7b89593711997c9fa34cf0fb95e96a1b8191aa67b92c9741",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/options_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "设置",
+      "box": [
+        26,
+        5,
+        209,
+        36
+      ],
+      "font_size": 23,
+      "size": [
+        231,
+        41
+      ],
+      "bits": 16,
+      "source_sha256": "54599c30ac82a9e10288b4182ee1b2d6c4bbe646572c519d5901dde345f998c9",
+      "sha256": "6785ee95f27d4f06ff87390d70bff9073f7293fc4d971442d769c46238662ac6",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/options_unuse.tga",
+      "state": "unuse"
+    },
+    {
+      "label": "确定",
+      "box": [
+        26,
+        5,
+        142,
+        33
+      ],
+      "font_size": 23,
+      "size": [
+        164,
+        38
+      ],
+      "bits": 16,
+      "source_sha256": "acec0a95d0785367968c1a9c6ccac986dde139ae711f3e42f5e3a2d3a10d416c",
+      "sha256": "167c478642ad5f20f0b01b12989bbe0f6b86af6883c9a3eb2fbf7035ab790fca",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/options_ok_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "确定",
+      "box": [
+        26,
+        5,
+        142,
+        33
+      ],
+      "font_size": 23,
+      "size": [
+        164,
+        38
+      ],
+      "bits": 16,
+      "source_sha256": "4fbea4c59f47018faab8b256925f3ce7aaacf4a78319da2c5f188609c4b07ad4",
+      "sha256": "1836e0485a2d44116653b8fede89f3ea0fea6abae60a051b12cb6eff429667bb",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/options_ok_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "否",
+      "box": [
+        28,
+        4,
+        72,
+        25
+      ],
+      "font_size": 19,
+      "size": [
+        97,
+        29
+      ],
+      "bits": 16,
+      "source_sha256": "50a22980ae2146b0bb13396e6ec3ae709d859cefd0e6ff8312afd7dcf3493747",
+      "sha256": "cf9515d281b0cbc8ad0578335dd084467ac0a468dc229f60bfdfc4cc825c08ad",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/q-game-butt-no-normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "否",
+      "box": [
+        28,
+        4,
+        72,
+        25
+      ],
+      "font_size": 19,
+      "size": [
+        97,
+        29
+      ],
+      "bits": 16,
+      "source_sha256": "443dacf0bc1fa1148622fa5c346ab43f42841f9c75c54a79e90ed5107db425ba",
+      "sha256": "2ccd9ce7229c618789d4fa158325e2eab2d2a48fbd8a5b5bff55a871289bb3c3",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/q-game-butt-no-lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "是",
+      "box": [
+        28,
+        4,
+        72,
+        25
+      ],
+      "font_size": 18,
+      "size": [
+        97,
+        29
+      ],
+      "bits": 16,
+      "source_sha256": "6ddad0a668286d72f22014b0c13c9208c93248ad848466ee7d3a8c7cbe563391",
+      "sha256": "1cca71a27b42e13899c3818947ebe461177cb430bbc17c6bbb7d8efcc070b0ee",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/q-game-butt-yes-normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "是",
+      "box": [
+        28,
+        4,
+        72,
+        25
+      ],
+      "font_size": 18,
+      "size": [
+        97,
+        29
+      ],
+      "bits": 16,
+      "source_sha256": "3a3147e9afe229973f1479393944743621973888350702163c64e4cb4c6eb78e",
+      "sha256": "ebe5a03ec16bab4d160aedc1cc2c37ebf49716877c1512dea3223a41e8c0f3f0",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/q-game-butt-yes-lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "继续游戏",
+      "box": [
+        26,
+        5,
+        208,
+        35
+      ],
+      "font_size": 23,
+      "size": [
+        230,
+        40
+      ],
+      "bits": 16,
+      "source_sha256": "f1eabb6dc674caf8e53cd575662b1b07da7b2ead991641b299faaea97b2f5fd8",
+      "sha256": "f7ba36116ed21e13f1cb7822e6fe00947fae3b18298f2229d7e957db93e08bdd",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/resume_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "继续游戏",
+      "box": [
+        26,
+        5,
+        208,
+        35
+      ],
+      "font_size": 23,
+      "size": [
+        230,
+        40
+      ],
+      "bits": 16,
+      "source_sha256": "6e521af246ae9d7bb6ac676fef6db90f6abc962317118de0677bfe010182d905",
+      "sha256": "5bfee9d1050a201b3e21b6ff2195cc204d6ed046225d7ca9b94a41c90d27e95a",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/resume_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "继续游戏",
+      "box": [
+        26,
+        5,
+        208,
+        35
+      ],
+      "font_size": 23,
+      "size": [
+        230,
+        40
+      ],
+      "bits": 16,
+      "source_sha256": "1b34af4f5ffea31edc5c87994b45a3d84157b794bad77b41a1c31efa4b56e05b",
+      "sha256": "5255439ba187e403a93b3ea24342b245ea8b2071484e450e484109566584f80c",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/resume_unuse.tga",
+      "state": "unuse"
+    },
+    {
+      "label": "保存游戏",
+      "box": [
+        26,
+        5,
+        208,
+        35
+      ],
+      "font_size": 23,
+      "size": [
+        230,
+        40
+      ],
+      "bits": 16,
+      "source_sha256": "553388badb0da9a0d108fe4daea763f1f678e662329a4296bfd496aa0a668b32",
+      "sha256": "d31f76aa6c3653dc66b5e2fc833a70e52851bf20edd3c692b5f2d132694591d3",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/save_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "保存游戏",
+      "box": [
+        26,
+        5,
+        208,
+        35
+      ],
+      "font_size": 23,
+      "size": [
+        230,
+        40
+      ],
+      "bits": 16,
+      "source_sha256": "a4abd15712588612f21aacddbdd5a02cf1568f2e5c18d81bdf74a96e20081a0b",
+      "sha256": "4e642dc802a1f3cd0bdb4cd0dc1d5484b5dc1d347ea7a771dbaf262dddd34afb",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/save_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "保存游戏",
+      "box": [
+        26,
+        5,
+        208,
+        35
+      ],
+      "font_size": 23,
+      "size": [
+        230,
+        40
+      ],
+      "bits": 16,
+      "source_sha256": "b44e445a80439baf9d33ecdb07d1ea5cb380e80f6f782fc0d9a45abab6f641e6",
+      "sha256": "1d386720bcd7b398bf6e8cb1b69f2def0e638e3672c14f6f7c2b29f998512c1a",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/save_unuse.tga",
+      "state": "unuse"
+    },
+    {
+      "label": "返回",
+      "box": [
+        26,
+        5,
+        122,
+        33
+      ],
+      "font_size": 23,
+      "size": [
+        144,
+        38
+      ],
+      "bits": 16,
+      "source_sha256": "31cc802575cc47dd3103b0c8a21cd9cf82cbf2dbc5860ae61dee13c86338ef3c",
+      "sha256": "36168818e1f95e81cd23dab6d4982adb7003dde43ace3a28447080c1c0a67aab",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/select_back_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "返回",
+      "box": [
+        26,
+        5,
+        122,
+        33
+      ],
+      "font_size": 23,
+      "size": [
+        144,
+        38
+      ],
+      "bits": 16,
+      "source_sha256": "e2958341cbfcaed9bbea6b056569d6bab492296b50407cb400117c157572733d",
+      "sha256": "96542c19c9544fe02386de4003fe8025a3d6b754cc5255127d93ae7ff4d3df62",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/select_back_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "圣骑士",
+      "box": [
+        26,
+        5,
+        144,
+        35
+      ],
+      "font_size": 23,
+      "size": [
+        166,
+        40
+      ],
+      "bits": 16,
+      "source_sha256": "640529164e4a0e1c07fea3c7ca68dc83dc5c05b5a7859dbeda62f49680591d58",
+      "sha256": "580849d407faec3a1affda35d97160cdfe18e8ac435487b6c7cba02a98119010",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/select_paladin_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "圣骑士",
+      "box": [
+        26,
+        5,
+        144,
+        35
+      ],
+      "font_size": 23,
+      "size": [
+        166,
+        40
+      ],
+      "bits": 16,
+      "source_sha256": "9872a894383cf935fa3a4fbcdd15b4380019ce8855b9298fb27b4c906356c5d4",
+      "sha256": "cf2e12457ebb5a357e8347f4ee7c0012477944fbc6deec7ce56eaeaed32456e7",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/select_paladin_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "牧师",
+      "box": [
+        26,
+        5,
+        147,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        169,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "001598a7af6b972cec4f9da818dee2877cdd809762c5aad97792d89ea8163197",
+      "sha256": "d604184a730aff63e47eb6ce5c77bf1134771edb49a80c3fc67b67578ca39769",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/select_priest_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "牧师",
+      "box": [
+        26,
+        5,
+        147,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        169,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "9f824b83ac2fd4241664cba1b6e2d22080cd4b4029d7b174add16f88887c7fb8",
+      "sha256": "d48df879309ed991c3a36b3a78dd88f0d8caa24cfecf40f2b9eb63b93994e351",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/select_priest_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "盗贼",
+      "box": [
+        26,
+        5,
+        144,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        166,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "e91328c7c104bf15e303e624c647a88d8b79f5833e7d5914065715508f32df78",
+      "sha256": "1d0533fa777897298935e046894821021f1bce3905e41ec6439bba4e82b05e15",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/select_thief_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "盗贼",
+      "box": [
+        26,
+        5,
+        144,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        166,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "e732b8a8eb137360674d3d3f0f33af321c6a8571a2ad7459e44a9c559de9c886",
+      "sha256": "28d1031747a5d44e018e5fb65bbe5f25b57abf7feb7891075d1e690098954863",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/select_thief_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "单人游戏",
+      "box": [
+        26,
+        5,
+        238,
+        35
+      ],
+      "font_size": 23,
+      "size": [
+        260,
+        40
+      ],
+      "bits": 16,
+      "source_sha256": "81bcca77f58aac516ab64dd6ce66e79e374e8089d18c6268e348ed503996ee4a",
+      "sha256": "cfbcc5c2f3f500fa85a5e4cebcefa5edc737fd6b6357ff4d6664c88eec46c10f",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/singleplayer_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "单人游戏",
+      "box": [
+        26,
+        5,
+        238,
+        35
+      ],
+      "font_size": 23,
+      "size": [
+        260,
+        40
+      ],
+      "bits": 16,
+      "source_sha256": "fcf27f2a8fdbc7c3a536e38bd3151eb2cf63c586b9b7a36e996497d9a2633984",
+      "sha256": "114bf34d780cd2ae299d9c95bc6cabbbbd551d94f62f18ed5976b4d3d50d7323",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/singleplayer_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "视频",
+      "box": [
+        26,
+        5,
+        206,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        228,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "9c0cf115b933055cae51f82020d2ae9d70704dfa2b86c890b6a4b8df216a13b8",
+      "sha256": "ad5105fb5e89527e59ec7d94a6e27485dc1915e0aaffb860bdf607d0ab1c5d77",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/video_normal.tga",
+      "state": "normal"
+    },
+    {
+      "label": "视频",
+      "box": [
+        26,
+        5,
+        206,
+        34
+      ],
+      "font_size": 23,
+      "size": [
+        228,
+        39
+      ],
+      "bits": 16,
+      "source_sha256": "f2f584549466a258d7e47a04fc17d7fb3106dbbe7ab6d39ee45c294202040293",
+      "sha256": "58dd85aff4c16dc7b92607708a41f6a93f9e95c47e4276361f76f56bbfe8c852",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/video_lock.tga",
+      "state": "lock"
+    },
+    {
+      "label": "退出游戏？",
+      "box": [
+        77,
+        27,
+        286,
+        64
+      ],
+      "font_size": 30,
+      "size": [
+        370,
+        177
+      ],
+      "bits": 32,
+      "source_sha256": "4fb1c12e390501ab0f6c4af357623b307ff458a19f72c21b09dae097e2135fce",
+      "sha256": "f4c5bcd073c02676438ee9c742f21ce9255109e7ba914b3af701d5200b2ee02b",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/q-game-center.tga",
+      "state": "title"
+    },
+    {
+      "label": "退出游戏？",
+      "box": [
+        85,
+        69,
+        296,
+        107
+      ],
+      "font_size": 30,
+      "size": [
+        383,
+        251
+      ],
+      "bits": 32,
+      "source_sha256": "c7c1b8f356ce9d3f96b4b733c695e92f9e3393fd00f703081ac3f343d4c0904e",
+      "sha256": "c13c1e2adecad2f87320a9f97a8d7acd7a25eadde1c1c9dd3a06a36ea4f3de2d",
+      "outside_box_unchanged": true,
+      "alpha_unchanged": true,
+      "path": "local/menu/quit_window.tga",
+      "state": "title"
+    }
+  ],
+  "count": 90,
+  "review": "Visual review passed; runtime verification pending"
+}

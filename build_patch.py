@@ -182,11 +182,22 @@ def main():
     characters = set(''.join(target))
     fonts, font_report = make_fonts(characters)
     resources.update(fonts)
+    menu_report_path = WORK/'menu_build_report.json'
+    menu_count = 0
+    if menu_report_path.exists():
+        menu_report = json.loads(menu_report_path.read_text(encoding='utf-8'))
+        assert menu_report['review'] == 'Visual review passed; runtime verification pending', 'Review menu sprites before building'
+        for item in menu_report['resources']:
+            data = (WORK/'ui_translated'/item['path']).read_bytes()
+            assert sha(data) == item['sha256'], item['path']
+            resources[item['path']] = data
+            menu_count += 1
     output = WORK/'Files/Game/03_zh.dat'
     hashes = pack(resources, output)
     report = dict(overlay=str(output), overlay_sha256=sha(output.read_bytes()), overlay_bytes=output.stat().st_size,
                   translated_locations=count, resources=len(resources), roundtrip_verified=len(hashes),
                   fonts=font_report, deferred_npcname=deferred, resource_sha256=hashes,
+                  menu_images=menu_count,
                   source_csv_sha256=sha((ROOT/'inquisitor_text.csv').read_bytes()),
                   target_csv_sha256=sha((ROOT/'inquisitor_text_translated.csv').read_bytes()),
                   game_verification='Pending: this script does not deploy or launch the game.')
