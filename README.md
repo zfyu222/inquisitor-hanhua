@@ -73,6 +73,7 @@
 - 测试设置：临时启用 StartWindowed=1、CreateLogFile=1，原设置备份位于 Repack；全屏模式下原版与测试版均出现快速退出。主菜单按钮仍为英文图片。
 - 图片文字方案（2026-10-13 用户后续确认）：改用程序清除英文并绘制中文，覆盖36组/88个按钮状态及2个退出标题。`python build_menu_images.py` 生成图片，审查后将 `Repack/menu_build_report.json` 的 review 标记为 `Visual review passed; runtime verification pending`，再执行 `python build_patch.py` 与 `python deploy_patch.py install`。共享实现为工作区 `Tools/localization/sprite_text.py`；依赖 Pillow、NumPy 2.5.4、OpenCV 5.0.0。
 - 图片回填结果：90份TGA保留原尺寸、头部、位深、透明位/通道及文字区域外像素；中文采用宋体，正常/按下/禁用各状态独立处理。退出标题从同一原图的无字石纹区域补底。新包849份资源、40,784,692字节，项目解码与QuickBMS独立解包逐字节一致；已安装并在游戏内确认中文主菜单。旧03_zh.dat已备份，原EXE与三个原始DAT哈希校验通过。字体正文与存读档尚未验收。
+- 手动输入复核：用户手动选择难度后成功进入职业选择页，确认该菜单路径可用；截图已确认“返回、圣骑士、牧师、盗贼”中文图片正常显示。模拟点击在难度页未推进，原因尚未证实；角色属性正文、剧情对话与存读档仍待检查。
 - 图片文字推进：已从01_local定位117个menu资源，整理36组/88个有字按钮状态及2个退出标题。AI图集候选因错字、位置变化与透明边缘伪影被拒绝，未部署；标签映射和检查记录在 `prepare_ui_atlas.py` / `Repack/ui_review.md`。中文字体与游戏内流程仍待验收。
 - 长段落换行分析：IDA核实 `0x412950` 绘制与 `0x412D40` 测量均在无空格、字符宽度溢出时回退逐字符换行；无需向正式译文盲目插入空格/换行。实际中文基线、大小及标点排版仍待游戏内确认。
 
