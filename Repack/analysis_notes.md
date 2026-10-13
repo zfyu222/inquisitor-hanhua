@@ -58,3 +58,5 @@ python deploy_patch.py restore-settings
 后续电脑操作对照测试（2026-10-13）：游戏置前后实际已处于难度选择页，替代上面的旧主菜单状态。工具在游戏被遮挡时曾返回包含Codex界面的局部截图，重新activate_window后恢复正确游戏截图；每次输入前应置前并重观察。官方Windows说明要求前台操作：https://learn.chatgpt.com/docs/computer-use 。在自建Tkinter窗口中仅记录自身的ButtonPress/ButtonRelease，完整接收到模拟单击和拖动；两次采样的按住时间分别约16ms和15ms，不能泛化为所有点击恒定时长。游戏内点击“普通”只观察到高亮，未进入下一页。普通窗口的点击链路可用，短时模拟输入与游戏采样的兼容性仍属假设，尚未证实根因；没有修改Codex配置、操作系统安全设置或游戏输入代码。临时测试程序和事件日志保存在忽略入库的analysis目录。
 
 用户手动点击难度后报告“进入了”，随后实际窗口截图确认已在职业选择页（返回、圣骑士、牧师、盗贼按钮中文）。这证明菜单跳转路径可用；此前自动输入未推进更指向模拟输入的兼容性，但尚不能确定短按、DirectInput采样或其他具体根因。图片按钮显示不等于新增中文BFI字库或正文布局已通过验收。
+
+界面大小（2026-10-13）：进入角色创建页后用户反馈“界面太小，看不清”。游戏1024×768窗口截图仅457×371，无法准确验收正文小字。HKCU AppCompatFlags/Layers中的该EXE值为HIGHDPIAWARE；备份后临时改DPIUNAWARE，重启仍为457×371，随即恢复原值，不能断言DPI兼容性标志就是实际根因。将d3dparams.ini的InitialScreenWidth/Height调整为2048/1536，重启后截图912×712，UI和中文按钮放大，确认该方案有效。设置操作及恢复由game_display.py管理，备份不入库；deploy_patch.py restore-settings已支持识别该精确测试配置并恢复。游戏原始EXE/DAT及Windows全局缩放没有修改；后续正文验收仍待完成。

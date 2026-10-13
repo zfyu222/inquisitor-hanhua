@@ -54,7 +54,12 @@ def main():
                 original = saved.read_bytes()
                 expected = original.replace(before.encode(),after.encode())
                 current = (GAME/name).read_bytes()
-                assert current in [original, expected], f'{name} was changed separately; refusing overwrite.'
+                accepted = [original,expected]
+                if name == 'd3dparams.ini':
+                    size_backup = WORK/'d3dparams.ini.window-size.original'
+                    if size_backup.exists() and size_backup.read_bytes() == expected:
+                        accepted.append(expected.replace(b'InitialScreenWidth=1024',b'InitialScreenWidth=2048').replace(b'InitialScreenHeight=768',b'InitialScreenHeight=1536'))
+                assert current in accepted, f'{name} was changed separately; refusing overwrite.'
                 (GAME/name).write_bytes(original)
                 print('Restored', name)
         return
