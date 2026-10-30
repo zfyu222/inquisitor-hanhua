@@ -90,6 +90,9 @@
 - 正式译文已通过结构和占位符校验；未进行全文逐句语义精校。用户已确认字形/标点修复，并要求不再检测、直接发布；对话、任务、物品和存读档未完整验收，相关限制写入补丁说明。
 
 ## 对外发布
+
+- 汉化封面：`Dispatch/Artwork/title.png`，参考 [Steam 官方素材](https://store.steampowered.com/app/241620/)，使用内置图像工具制作并视觉检查；来源及提示词见 `Dispatch/Artwork/source.json`。封面不进入安装载荷。
+
 - 补丁文件：`Dispatch/Inquisitor_子非鱼汉化1.0.zip`，4,355,238 字节。
 - 标题：《Inquisitor》子非鱼AI汉化补丁 v1.0；发布日期：2026-10-13。
 - 支持版本/平台：Steam Windows 英语版 Build 6307888（本地 Changelog 首条 v1.10.18）；其他构建/商店/语言未经验证。
