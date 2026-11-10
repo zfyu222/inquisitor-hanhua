@@ -1,0 +1,12 @@
+{
+  "zip": "Inquisitor_独立增强补丁_字体可选.zip",
+  "bytes": 444265,
+  "sha256": "af9555c616752ced354be21ae73b32e0064296fe07d6ecec3952490ed36c6955",
+  "scales": [
+    125,
+    150,
+    200
+  ],
+  "zip_and_checksums": "passed",
+  "runtime_verification": "pending"
+}

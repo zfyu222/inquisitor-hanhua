@@ -1,0 +1,153 @@
+{
+  "checks": 29,
+  "results": [
+    {
+      "check": "select 125",
+      "expected": 0,
+      "exit_code": 0
+    },
+    {
+      "check": "select 150",
+      "expected": 0,
+      "exit_code": 0
+    },
+    {
+      "check": "select 200",
+      "expected": 0,
+      "exit_code": 0
+    },
+    {
+      "check": "select 125",
+      "expected": 0,
+      "exit_code": 0
+    },
+    {
+      "check": "select 200",
+      "expected": 0,
+      "exit_code": 0
+    },
+    {
+      "check": "select 150",
+      "expected": 0,
+      "exit_code": 0
+    },
+    {
+      "check": "select 150",
+      "expected": 0,
+      "exit_code": 0
+    },
+    {
+      "check": "uninstall",
+      "expected": 0,
+      "exit_code": 0
+    },
+    {
+      "check": "repeat uninstall",
+      "expected": 0,
+      "exit_code": 0
+    },
+    {
+      "check": "interactive 125",
+      "expected": 0,
+      "exit_code": 0
+    },
+    {
+      "check": "interactive 150",
+      "expected": 0,
+      "exit_code": 0
+    },
+    {
+      "check": "interactive 200",
+      "expected": 0,
+      "exit_code": 0
+    },
+    {
+      "check": "interactive cancel",
+      "expected": 0,
+      "exit_code": 0
+    },
+    {
+      "check": "invalid menu input then 125",
+      "expected": 0,
+      "exit_code": 0
+    },
+    {
+      "check": "interactive restore 100",
+      "expected": 0,
+      "exit_code": 0
+    },
+    {
+      "check": "migrate legacy to 125",
+      "expected": 0,
+      "exit_code": 0
+    },
+    {
+      "check": "migrate legacy to 150",
+      "expected": 0,
+      "exit_code": 0
+    },
+    {
+      "check": "migrate legacy to 200",
+      "expected": 0,
+      "exit_code": 0
+    },
+    {
+      "check": "remove known duplicate legacy",
+      "expected": 0,
+      "exit_code": 0
+    },
+    {
+      "check": "reject corrupt candidate",
+      "expected": 1,
+      "exit_code": 1
+    },
+    {
+      "check": "reject unknown current install",
+      "expected": 1,
+      "exit_code": 1
+    },
+    {
+      "check": "reject unknown current uninstall",
+      "expected": 1,
+      "exit_code": 1
+    },
+    {
+      "check": "reject unknown legacy install",
+      "expected": 1,
+      "exit_code": 1
+    },
+    {
+      "check": "reject unknown legacy uninstall",
+      "expected": 1,
+      "exit_code": 1
+    },
+    {
+      "check": "reject missing localization",
+      "expected": 1,
+      "exit_code": 1
+    },
+    {
+      "check": "reject unknown localization",
+      "expected": 1,
+      "exit_code": 1
+    },
+    {
+      "check": "reject unsupported executable",
+      "expected": 1,
+      "exit_code": 1
+    },
+    {
+      "check": "auto-locate extracted package",
+      "expected": 0,
+      "exit_code": 0
+    },
+    {
+      "check": "auto-locate restore",
+      "expected": 0,
+      "exit_code": 0
+    }
+  ],
+  "real_game_unchanged": true,
+  "chinese_localization_unchanged": true,
+  "shipped_zip_tested": true
+}

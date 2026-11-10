@@ -1,0 +1,53 @@
+{
+  "version": "1.1-local",
+  "feature": "selectable_font_scale",
+  "supported_exe_sha256": "88854166fe459cb1937b075604d906c88c3e1109d7b87fb17cb494939c7a9276",
+  "base_chinese_sha256": "3164493a2bb1ce571709d86f3fc438c61ec47b06629436fc90851f448b55b2e2",
+  "target": "Game/04_enhancement_font.dat",
+  "legacy_target": "Game/04_enhancement_font125.dat",
+  "legacy_sha256": "028a5b7b718dfa9debe264d1349ceee1aab492e547edcacba05ca50301776a2f",
+  "options": [
+    {
+      "percent": 125,
+      "scale": 1.25,
+      "payload": "Payload/font125.bin",
+      "sha256": "028a5b7b718dfa9debe264d1349ceee1aab492e547edcacba05ca50301776a2f",
+      "bytes": 4322082,
+      "resources": {
+        "local/fnt/Nosferatu.bfi": "a3b070cc65116424fc14a9b4145c9de249342ea7df47f32dfe8611858feb4f85",
+        "local/fnt/NosferatuS.bfi": "b607f5b32ce4ef670ee7a66c5fe146f0bbcb4832eb8f86b7ccc558b99d820f2a",
+        "local/fnt/NosferatuSBlack.bfi": "345e15d1e9bc370784f8c073e13be4ab74a0bf4af1e8ef5c32f1e716dd64d674"
+      },
+      "roundtrip_verified": 3,
+      "quickbms_verified": 3
+    },
+    {
+      "percent": 150,
+      "scale": 1.5,
+      "payload": "Payload/font150.bin",
+      "sha256": "6a1c1955504bd419e645b50a2ad890c4de8c331662f42f38a0557d0840619adb",
+      "bytes": 4322070,
+      "resources": {
+        "local/fnt/Nosferatu.bfi": "66659d1c4f6139f9dc48edee796ab1f78d017b53d30696823c0365192865e38d",
+        "local/fnt/NosferatuS.bfi": "1bb25b852ba30b9299e45bda287aa30adedcb6a2d2ebd73863cc27658bdb55b4",
+        "local/fnt/NosferatuSBlack.bfi": "f081f16d9f716b2347d25823e375395e114ccde20c4b580a8d94916bf2d264b6"
+      },
+      "roundtrip_verified": 3,
+      "quickbms_verified": 3
+    },
+    {
+      "percent": 200,
+      "scale": 2.0,
+      "payload": "Payload/font200.bin",
+      "sha256": "7ad636330a95e256e379466e487a6348c0ea83982166106c1dfde29dabeab110",
+      "bytes": 4322070,
+      "resources": {
+        "local/fnt/Nosferatu.bfi": "28839b5c78e6002a9e6920af35e97a4163235ee122dc557173be75366a873995",
+        "local/fnt/NosferatuS.bfi": "eda284af4793eb29fb26603b8534e73f490e0614e95b15892f0e58ea64840c11",
+        "local/fnt/NosferatuSBlack.bfi": "808d681f128deb542cf68f7775edf5dc90ef4f8a09a097930b197971a4c1e805"
+      },
+      "roundtrip_verified": 3,
+      "quickbms_verified": 3
+    }
+  ]
+}
