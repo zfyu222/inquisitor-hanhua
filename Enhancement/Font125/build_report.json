@@ -1,0 +1,28 @@
+{
+  "feature": "font_scale_125",
+  "scale_x": 1.25,
+  "scale_y": 1.25,
+  "base_chinese_sha256": "3164493a2bb1ce571709d86f3fc438c61ec47b06629436fc90851f448b55b2e2",
+  "supported_exe_sha256": "88854166fe459cb1937b075604d906c88c3e1109d7b87fb17cb494939c7a9276",
+  "payload": "Game/04_enhancement_font125.dat",
+  "payload_sha256": "028a5b7b718dfa9debe264d1349ceee1aab492e547edcacba05ca50301776a2f",
+  "payload_bytes": 4322082,
+  "resources": {
+    "local/fnt/Nosferatu.bfi": "a3b070cc65116424fc14a9b4145c9de249342ea7df47f32dfe8611858feb4f85",
+    "local/fnt/NosferatuS.bfi": "b607f5b32ce4ef670ee7a66c5fe146f0bbcb4832eb8f86b7ccc558b99d820f2a",
+    "local/fnt/NosferatuSBlack.bfi": "345e15d1e9bc370784f8c073e13be4ab74a0bf4af1e8ef5c32f1e716dd64d674"
+  },
+  "glyph_counts": {
+    "Nosferatu": 3689,
+    "NosferatuS": 3756,
+    "NosferatuSBlack": 3756
+  },
+  "changed_fields": [
+    "TextScaleX: 1.0 -> 1.25",
+    "TextScaleY: 1.0 -> 1.25"
+  ],
+  "roundtrip_verified": 3,
+  "independent_quickbms_verified": 3,
+  "runtime_verification": "pending; offline build only",
+  "scope": "BFI-rendered text; menu text baked into images is outside this feature"
+}

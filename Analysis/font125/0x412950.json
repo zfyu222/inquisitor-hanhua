@@ -1,0 +1,85 @@
+{
+  "evidence_id": "ev_f4146cd698c8cd4463f56e11a85adb0ad5cf2099361797d33a7b6ba1ad4ca53a",
+  "subject": {
+    "name": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\Inquisitor\\Game\\Inquisitor.exe",
+    "digest": {
+      "sha256": "88854166fe459cb1937b075604d906c88c3e1109d7b87fb17cb494939c7a9276"
+    },
+    "format": "pe",
+    "architecture": "x86",
+    "local_path": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\Inquisitor\\Game\\Inquisitor.exe"
+  },
+  "provider": {
+    "id": "ghidra",
+    "name": "Ghidra",
+    "version": "12.1.4"
+  },
+  "analysis_profile": {
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "parameters": {
+      "target_kind": "executable",
+      "target_format": "pe",
+      "executable_role": "application",
+      "managed": false,
+      "native_aot_metadata": {
+        "contract_revision": "rtr-9.1-x64-pe-read-only-v3",
+        "source_bytes": 134217728,
+        "work_units": 67108864,
+        "working_memory_bytes": 67108864,
+        "report_bytes": 4194304
+      },
+      "architecture": "x86",
+      "available_architectures": [
+        "x86"
+      ],
+      "import_mode": "ephemeral-source-immutable",
+      "annotation_policy": "atomic-function-entry-metadata-v1",
+      "load_image_observations": "source-mappings-entry-context-v2",
+      "function_body_evidence": "complete-inclusive-ranges-v1",
+      "function_references": "complete-body-and-entry-reference-manager-v2",
+      "string_inventory_evidence": "defined-data-coverage-v1",
+      "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+      "instruction_flow_evidence": "decoded-return-pcode-v1",
+      "function_boundary_observations": "ghidra-terminal-call-limitations-v1",
+      "no_return_repair": "disabled-windows-p0",
+      "process_launch": "official-headless-script-v1",
+      "jump_table_evidence": "typed-case-default-blocks-v1",
+      "decompiler_jump_loads": true,
+      "loader": "auto-from-header",
+      "language_id": "auto-from-header",
+      "compiler_spec_id": "auto-default",
+      "analyzer_preset": "ghidra-default"
+    },
+    "digest": "b9d116ea480a02cc8773b19372074a3caf77785cbc080b1ac7133b5110e40b17"
+  },
+  "predicate_type": "rea.analysis",
+  "operation": "procedure_pseudo_code",
+  "parameters": {
+    "procedure": "0x412950"
+  },
+  "raw_result": {
+    "value": "\r\nundefined4 FUN_00412950(int *param_1,undefined4 param_2,short *param_3,uint param_4,int param_5)\r\n\r\n{\r\n  short sVar1;\r\n  float fVar2;\r\n  char cVar3;\r\n  int iVar4;\r\n  int *piVar5;\r\n  int iVar6;\r\n  int iVar7;\r\n  short *psVar8;\r\n  int in_ECX;\r\n  int iVar9;\r\n  int iVar10;\r\n  int iVar11;\r\n  float10 extraout_ST0;\r\n  float10 fVar12;\r\n  float local_5c;\r\n  float local_58;\r\n  int local_50;\r\n  int local_3c;\r\n  int local_34;\r\n  int local_18;\r\n  int local_14;\r\n  int local_10;\r\n  int local_c;\r\n  \r\n  if ((int)param_4 < 1) {\r\n    if (param_3 == (short *)0x0) {\r\n      return 0;\r\n    }\r\n    psVar8 = param_3;\r\n    do {\r\n      sVar1 = *psVar8;\r\n      psVar8 = psVar8 + 1;\r\n    } while (sVar1 != 0);\r\n    param_4 = (int)psVar8 - (int)(param_3 + 1) >> 1;\r\n  }\r\n  if (param_3 != (short *)0x0) {\r\n    psVar8 = param_3;\r\n    do {\r\n      sVar1 = *psVar8;\r\n      psVar8 = psVar8 + 1;\r\n    } while (sVar1 != 0);\r\n    if ((param_4 <= (uint)((int)psVar8 - (int)(param_3 + 1) >> 1)) && (0 < (int)param_4)) {\r\n      if ((*param_1 < param_1[2]) &&\r\n         ((param_1[1] < param_1[3] && (local_10 = param_1[2] - *param_1, param_5 < local_10)))) {\r\n        local_14 = 0;\r\n        local_18 = 0;\r\n        local_c = param_5;\r\n        cVar3 = FUN_00412d40(param_3,param_4,&local_18);\r\n        if (cVar3 != '\\0') {\r\n          iVar4 = *param_1 - local_18;\r\n          local_58 = (float)(iVar4 + param_5);\r\n          local_5c = (float)(param_1[1] - local_14);\r\n          iVar10 = param_1[2] - local_18;\r\n          local_50 = 0;\r\n          fVar2 = (float)*(int *)(in_ECX + 0x34) * *(float *)(in_ECX + 0x2c);\r\n          iVar9 = 0;\r\n          do {\r\n            param_4 = param_4 - 1;\r\n            iVar11 = iVar9 + 1;\r\n            if (param_3[iVar9] == 10) {\r\n              local_58 = (float)iVar4;\r\n              FUN_00412620(local_58,local_5c,param_2,param_3,iVar9);\r\n              param_3 = param_3 + iVar11;\r\n              psVar8 = param_3;\r\n              do {\r\n                sVar1 = *psVar8;\r\n                psVar8 = psVar8 + 1;\r\n              } while (sVar1 != 0);\r\n              param_4 = (int)psVar8 - (int)(param_3 + 1) >> 1;\r\n              iVar11 = 0;\r\n              local_5c = fVar2 + local_5c;\r\n              local_50 = 0;\r\n            }\r\n            else {\r\n              if (param_3[iVar9] == *(short *)(in_ECX + 0x3a)) {\r\n                local_50 = local_50 + 1;\r\n                local_3c = iVar9;\r\n              }\r\n              piVar5 = (int *)FUN_004131c0();\r\n              iVar6 = *piVar5;\r\n              local_34 = piVar5[1];\r\n              iVar7 = *(int *)(in_ECX + 0x40);\r\n              if ((iVar6 == 0) || (iVar6 != in_ECX + 0x3c)) {\r\n                FUN_00627b64();\r\n              }\r\n              if (local_34 == iVar7) {\r\n                piVar5 = (int *)FUN_004131c0();\r\n                iVar6 = *piVar5;\r\n                local_34 = piVar5[1];\r\n              }\r\n              iVar7 = *(int *)(in_ECX + 0x40);\r\n              if ((iVar6 == 0) || (iVar6 != in_ECX + 0x3c)) {\r\n                FUN_00627b64();\r\n              }\r\n              if (local_34 != iVar7) {\r\n                iVar6 = FUN_00413240();\r\n                if (1 < iVar11) {\r\n                  local_58 = *(float *)(in_ECX + 0x28) * (float)*(int *)(iVar6 + 0x24) + local_58;\r\n                }\r\n                iVar7 = FUN_00413240();\r\n                if ((float)*(int *)(iVar7 + 0x1c) * *(float *)(in_ECX + 0x28) + local_58 < 0.0) {\r\n                  FUN_00413240();\r\n                }\r\n                else {\r\n                  FUN_00413240();\r\n                }\r\n                iVar7 = FUN_006224d0();\r\n                if (iVar10 < iVar7) {\r\n                  if (local_50 < 1) {\r\n                    if ((iVar11 < 2) && ((float10)iVar4 == extraout_ST0)) {\r\n                      return 0;\r\n                    }\r\n                    FUN_00412620((float)iVar4,local_5c,param_2,param_3,iVar9);\r\n                  }\r\n                  else {\r\n                    FUN_00412620((float)iVar4,local_5c,param_2,param_3,local_3c);\r\n                    iVar9 = local_3c + 1;\r\n                  }\r\n                  param_3 = param_3 + iVar9;\r\n                  local_58 = (float)iVar4;\r\n                  psVar8 = param_3;\r\n                  do {\r\n                    sVar1 = *psVar8;\r\n                    psVar8 = psVar8 + 1;\r\n                  } while (sVar1 != 0);\r\n                  param_4 = (int)psVar8 - (int)(param_3 + 1) >> 1;\r\n                  local_5c = fVar2 + local_5c;\r\n                  iVar11 = 0;\r\n                  local_50 = 0;\r\n                  if ((float)param_1[3] < local_5c) {\r\n                    return 1;\r\n                  }\r\n                }\r\n                else {\r\n                  iVar9 = *(int *)(iVar6 + 0x2c) + *(int *)(iVar6 + 0x28);\r\n                  fVar12 = (float10)iVar9;\r\n                  if (iVar9 < 0) {\r\n                    fVar12 = fVar12 + (float10)4.2949673e+09;\r\n                  }\r\n                  local_58 = (float)(fVar12 * (float10)*(float *)(in_ECX + 0x28) + extraout_ST0);\r\n                }\r\n              }\r\n            }\r\n            iVar9 = iVar11;\r\n            if (param_4 == 0) {\r\n              psVar8 = param_3;\r\n              do {\r\n                sVar1 = *psVar8;\r\n                psVar8 = psVar8 + 1;\r\n              } while (sVar1 != 0);\r\n              FUN_00412620((float)iVar4,local_5c,param_2,param_3,\r\n                           (int)psVar8 - (int)(param_3 + 1) >> 1);\r\n              return 1;\r\n            }\r\n          } while( true );\r\n        }\r\n      }\r\n    }\r\n  }\r\n  return 0;\r\n}\r\n\r\n",
+    "limitations": []
+  },
+  "normalized_result": "\r\nundefined4 FUN_00412950(int *param_1,undefined4 param_2,short *param_3,uint param_4,int param_5)\r\n\r\n{\r\n  short sVar1;\r\n  float fVar2;\r\n  char cVar3;\r\n  int iVar4;\r\n  int *piVar5;\r\n  int iVar6;\r\n  int iVar7;\r\n  short *psVar8;\r\n  int in_ECX;\r\n  int iVar9;\r\n  int iVar10;\r\n  int iVar11;\r\n  float10 extraout_ST0;\r\n  float10 fVar12;\r\n  float local_5c;\r\n  float local_58;\r\n  int local_50;\r\n  int local_3c;\r\n  int local_34;\r\n  int local_18;\r\n  int local_14;\r\n  int local_10;\r\n  int local_c;\r\n  \r\n  if ((int)param_4 < 1) {\r\n    if (param_3 == (short *)0x0) {\r\n      return 0;\r\n    }\r\n    psVar8 = param_3;\r\n    do {\r\n      sVar1 = *psVar8;\r\n      psVar8 = psVar8 + 1;\r\n    } while (sVar1 != 0);\r\n    param_4 = (int)psVar8 - (int)(param_3 + 1) >> 1;\r\n  }\r\n  if (param_3 != (short *)0x0) {\r\n    psVar8 = param_3;\r\n    do {\r\n      sVar1 = *psVar8;\r\n      psVar8 = psVar8 + 1;\r\n    } while (sVar1 != 0);\r\n    if ((param_4 <= (uint)((int)psVar8 - (int)(param_3 + 1) >> 1)) && (0 < (int)param_4)) {\r\n      if ((*param_1 < param_1[2]) &&\r\n         ((param_1[1] < param_1[3] && (local_10 = param_1[2] - *param_1, param_5 < local_10)))) {\r\n        local_14 = 0;\r\n        local_18 = 0;\r\n        local_c = param_5;\r\n        cVar3 = FUN_00412d40(param_3,param_4,&local_18);\r\n        if (cVar3 != '\\0') {\r\n          iVar4 = *param_1 - local_18;\r\n          local_58 = (float)(iVar4 + param_5);\r\n          local_5c = (float)(param_1[1] - local_14);\r\n          iVar10 = param_1[2] - local_18;\r\n          local_50 = 0;\r\n          fVar2 = (float)*(int *)(in_ECX + 0x34) * *(float *)(in_ECX + 0x2c);\r\n          iVar9 = 0;\r\n          do {\r\n            param_4 = param_4 - 1;\r\n            iVar11 = iVar9 + 1;\r\n            if (param_3[iVar9] == 10) {\r\n              local_58 = (float)iVar4;\r\n              FUN_00412620(local_58,local_5c,param_2,param_3,iVar9);\r\n              param_3 = param_3 + iVar11;\r\n              psVar8 = param_3;\r\n              do {\r\n                sVar1 = *psVar8;\r\n                psVar8 = psVar8 + 1;\r\n              } while (sVar1 != 0);\r\n              param_4 = (int)psVar8 - (int)(param_3 + 1) >> 1;\r\n              iVar11 = 0;\r\n              local_5c = fVar2 + local_5c;\r\n              local_50 = 0;\r\n            }\r\n            else {\r\n              if (param_3[iVar9] == *(short *)(in_ECX + 0x3a)) {\r\n                local_50 = local_50 + 1;\r\n                local_3c = iVar9;\r\n              }\r\n              piVar5 = (int *)FUN_004131c0();\r\n              iVar6 = *piVar5;\r\n              local_34 = piVar5[1];\r\n              iVar7 = *(int *)(in_ECX + 0x40);\r\n              if ((iVar6 == 0) || (iVar6 != in_ECX + 0x3c)) {\r\n                FUN_00627b64();\r\n              }\r\n              if (local_34 == iVar7) {\r\n                piVar5 = (int *)FUN_004131c0();\r\n                iVar6 = *piVar5;\r\n                local_34 = piVar5[1];\r\n              }\r\n              iVar7 = *(int *)(in_ECX + 0x40);\r\n              if ((iVar6 == 0) || (iVar6 != in_ECX + 0x3c)) {\r\n                FUN_00627b64();\r\n              }\r\n              if (local_34 != iVar7) {\r\n                iVar6 = FUN_00413240();\r\n                if (1 < iVar11) {\r\n                  local_58 = *(float *)(in_ECX + 0x28) * (float)*(int *)(iVar6 + 0x24) + local_58;\r\n                }\r\n                iVar7 = FUN_00413240();\r\n                if ((float)*(int *)(iVar7 + 0x1c) * *(float *)(in_ECX + 0x28) + local_58 < 0.0) {\r\n                  FUN_00413240();\r\n                }\r\n                else {\r\n                  FUN_00413240();\r\n                }\r\n                iVar7 = FUN_006224d0();\r\n                if (iVar10 < iVar7) {\r\n                  if (local_50 < 1) {\r\n                    if ((iVar11 < 2) && ((float10)iVar4 == extraout_ST0)) {\r\n                      return 0;\r\n                    }\r\n                    FUN_00412620((float)iVar4,local_5c,param_2,param_3,iVar9);\r\n                  }\r\n                  else {\r\n                    FUN_00412620((float)iVar4,local_5c,param_2,param_3,local_3c);\r\n                    iVar9 = local_3c + 1;\r\n                  }\r\n                  param_3 = param_3 + iVar9;\r\n                  local_58 = (float)iVar4;\r\n                  psVar8 = param_3;\r\n                  do {\r\n                    sVar1 = *psVar8;\r\n                    psVar8 = psVar8 + 1;\r\n                  } while (sVar1 != 0);\r\n                  param_4 = (int)psVar8 - (int)(param_3 + 1) >> 1;\r\n                  local_5c = fVar2 + local_5c;\r\n                  iVar11 = 0;\r\n                  local_50 = 0;\r\n                  if ((float)param_1[3] < local_5c) {\r\n                    return 1;\r\n                  }\r\n                }\r\n                else {\r\n                  iVar9 = *(int *)(iVar6 + 0x2c) + *(int *)(iVar6 + 0x28);\r\n                  fVar12 = (float10)iVar9;\r\n                  if (iVar9 < 0) {\r\n                    fVar12 = fVar12 + (float10)4.2949673e+09;\r\n                  }\r\n                  local_58 = (float)(fVar12 * (float10)*(float *)(in_ECX + 0x28) + extraout_ST0);\r\n                }\r\n              }\r\n            }\r\n            iVar9 = iVar11;\r\n            if (param_4 == 0) {\r\n              psVar8 = param_3;\r\n              do {\r\n                sVar1 = *psVar8;\r\n                psVar8 = psVar8 + 1;\r\n              } while (sVar1 != 0);\r\n              FUN_00412620((float)iVar4,local_5c,param_2,param_3,\r\n                           (int)psVar8 - (int)(param_3 + 1) >> 1);\r\n              return 1;\r\n            }\r\n          } while( true );\r\n        }\r\n      }\r\n    }\r\n  }\r\n  return 0;\r\n}\r\n\r\n",
+  "confidence": "observed",
+  "authority": "shipped-artifact",
+  "environment": null,
+  "limitations": [
+    "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+    "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+    "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+    "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+    "Pseudocode is Ghidra decompiler output, not original source and not text-equivalent to Hopper output.",
+    "External functions and functions without an analyzable body return null; other decompiler failures remain explicit.",
+    "Windows Ghidra P0 accepts approved native x86 and x86-64 PE applications and DLLs; managed, hostile, sensitive, and mutable-path targets are unsupported.",
+    "The Windows bridge uses authenticated IPv4 loopback because Node path-based IPC does not expose Java AF_UNIX sockets; the endpoint file contains no bearer token.",
+    "Windows sessions require the matching packaged Windows x64 native addon, local NTFS targets and runtimes, and Windows 10 or later. Native handles enforce path admission, private DACLs, and Job Object ownership automatically."
+  ],
+  "locations": [],
+  "evidence_links": []
+}

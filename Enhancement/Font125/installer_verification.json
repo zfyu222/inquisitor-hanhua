@@ -1,0 +1,61 @@
+{
+  "checks": 9,
+  "results": [
+    {
+      "action": "install",
+      "expected": 0,
+      "actual": 0,
+      "output": "125% font enhancement installed and verified."
+    },
+    {
+      "action": "install",
+      "expected": 0,
+      "actual": 0,
+      "output": "125% font enhancement installed and verified."
+    },
+    {
+      "action": "uninstall",
+      "expected": 0,
+      "actual": 0,
+      "output": "125% font enhancement removed. Chinese localization preserved."
+    },
+    {
+      "action": "uninstall",
+      "expected": 0,
+      "actual": 0,
+      "output": "125% font enhancement removed. Chinese localization preserved."
+    },
+    {
+      "action": "install",
+      "expected": 1,
+      "actual": 1,
+      "output": "ERROR: The enhancement file has changed. Refusing to replace or remove it."
+    },
+    {
+      "action": "uninstall",
+      "expected": 1,
+      "actual": 1,
+      "output": "ERROR: The enhancement file has changed. Refusing to replace or remove it."
+    },
+    {
+      "action": "install",
+      "expected": 1,
+      "actual": 1,
+      "output": "ERROR: Install the Chinese v1.0 localization first."
+    },
+    {
+      "action": "install",
+      "expected": 0,
+      "actual": 0,
+      "output": "125% font enhancement installed and verified."
+    },
+    {
+      "action": "uninstall",
+      "expected": 0,
+      "actual": 0,
+      "output": "125% font enhancement removed. Chinese localization preserved."
+    }
+  ],
+  "real_game_unchanged": true,
+  "base_localization_unchanged": true
+}
