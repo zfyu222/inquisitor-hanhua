@@ -86,12 +86,19 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('archive', type=Path)
     parser.add_argument('output', type=Path)
+    parser.add_argument('--menu-images-only', action='store_true',
+                        help='Extract original local/menu TGA files for menu localization')
     args = parser.parse_args()
     args.output.mkdir(parents=True, exist_ok=True)
     manifest = []
     for name, size, packed, offset, compressed in entries(args.archive):
         row = dict(path=name, size=size, packed_size=packed, offset=offset)
-        if Path(name).suffix.lower() in {'.txt', '.dlg', '.dlt', '.cht', '.itm', '.bfi'}:
+        suffix = Path(name).suffix.lower()
+        if args.menu_images_only:
+            selected = name.lower().startswith('local/menu/') and suffix == '.tga'
+        else:
+            selected = suffix in {'.txt', '.dlg', '.dlt', '.cht', '.itm', '.bfi'}
+        if selected:
             content = expand(compressed, size)
             target = args.output/name
             target.parent.mkdir(parents=True, exist_ok=True)

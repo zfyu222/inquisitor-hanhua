@@ -66,6 +66,24 @@
 - 通用功能沉淀（2026-10-12）：共享检查/构建/安全应用程序位于工作区 `Tools/localization/glossary_tool.py`，后续各游戏按固定术语审校流程使用。项目 `apply_reviewed_glossary.py` 已改为调用共享安全应用逻辑，原有操作命令保持可用；具体译名修正保留在本项目，不带入其他游戏。
 
 ## 回填
+
+### 从公开工程重建
+
+使用 Steam Windows 英语版 Build 6307888、Python 3.12 和 Pillow、fontTools、NumPy、OpenCV。把项目放在 [StaticHanHua](https://github.com/zfyu222/StaticHanHua) 工作区的 `Projects/inquisitor/`，共享图片工具位于工作区的 `Tools/localization/`。项目的 `Game/` 指向自己的原版安装。
+
+1. 按「文本提取」中的三个 DRPK 解包命令生成 `extracted/`，用 [正式译文](inquisitor_text_translated.csv) 和 [区间映射](text_locations.jsonl) 回填。改译后运行 `python TranslateFiles/validate_inquisitor.py inquisitor_text_translated.csv`。
+2. 用下列命令从原版 `01_local.dat` 生成菜单原图和中文候选。按 [贴图审查记录](Repack/ui_review.md) 查看输出并确认后，再按下面的报告约定标记本次成图。
+
+   ```powershell
+   python drpk_extract.py Game/Game/01_local.dat Repack/ui_original/01_local --menu-images-only
+   python prepare_ui_atlas.py
+   python build_menu_images.py
+   ```
+
+3. 运行 `python build_patch.py` 构建 `Repack/Files/Game/03_zh.dat`。如需单独验证正文构建，在隔离副本中移出 `Repack/menu_build_report.json` 再运行构建。生成的 DAT 及原始贴图保留在本地，玩家安装包从 [GitHub Releases](https://github.com/zfyu222/inquisitor-hanhua/releases/) 获取。
+
+### 回填记录
+
 - 2026-10-13：`build_patch.py` 从正式 CSV 按精确字符区间回填全部 61,204 处，构建 `Repack/Files/Game/03_zh.dat`，759 份资源、约37 MiB；UTF-16 LE BOM，保留逻辑字段、转义及原字形图标。三套 BFI 补齐 3429 个字形，位图扩展至2048×2048。
 - IDA 确认 DAT 按名称加载，后加载同名资源覆盖；资源索引必须按 `CompareStringA(0x409,1)` 排序。确认 footer 为最大资源大小、entry 末字段为首个 SFL 块长度；确认 CharConvert 为大小写配对、NPCName 为对话显示前缀。详细地址和依据在 `Repack/analysis_notes.md`。
 - 命令：`python build_patch.py` 构建；退出游戏后 `python deploy_patch.py install` 安装、`remove` 移除补丁、`restore-settings` 恢复测试前的两个设置文件。安装程序校验原始 EXE/三个资源包哈希并拒绝替换未知同名补丁；升级旧补丁先备份。
