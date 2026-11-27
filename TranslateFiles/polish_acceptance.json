@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-27",
+  "records_polished": 24074,
+  "independent_review_records": 5126,
+  "final_changed_records": 5126,
+  "review_corrected_records": 514,
+  "source_sha256": "8b7620ea7e7723d749b57a0a428675e50079093e2fb9d9fe2a006465885c0d50",
+  "original_translation_sha256": "de57ef953773fb02d5b29bfe1f489f4d7f32989705446a83df27f99179827720",
+  "translation_sha256": "0410a4e513dc9e49e376e0b5d0967a45eb1582ccb92e79d6c13a59c321a3db89",
+  "legacy_glossary_sha256": "3e0b14b3266191f4f4e667ce8db01ed4bb0d241978c20a19f2ae4e4833e2ebcb",
+  "models": [
+    "gpt-6-luna"
+  ],
+  "api_usage": {
+    "prompt_tokens": 21186883,
+    "completion_tokens": 2240191,
+    "total_tokens": 23427074,
+    "cached_prompt_tokens": 8173056,
+    "reasoning_tokens": 27473,
+    "reported_requests": 2325,
+    "unknown_requests": 25
+  },
+  "project_csv_validation": {
+    "status": "passed",
+    "records": 24074,
+    "placeholder_errors": 0
+  },
+  "final_adjudication": {
+    "report_hash": "c9ebb386648b9cfe90970d62f9d83f98733e58ca81a47932f0dea995ddbd9287",
+    "reviewer": "standard",
+    "summary": "两项争议均可保留现译，无需返修。",
+    "decisions": [
+      {
+        "id": "R0004372_5e51e18482",
+        "disposition": "contextual",
+        "reason": "Drichtmaul_pal/pri/thi.dlt 的 061 明确称此石为 Philosopher's Stone，062 随即询问其含义，063 的 That's what they call this 承接该名称；译文“贤者之石”有对话依据。"
+      },
+      {
+        "id": "R0018619_ea1278673f",
+        "disposition": "pass",
+        "reason": "原文 Please, free use 中的 use 是明显笔误；前后均在请求流浪者解除亡魂束缚，译为“解救我们”准确。"
+      }
+    ]
+  }
+}

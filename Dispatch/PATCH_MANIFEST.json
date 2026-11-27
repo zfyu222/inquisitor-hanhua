@@ -1,11 +1,35 @@
 {
-  "archive": "Inquisitor_子非鱼汉化1.0.zip",
-  "created": "2026-10-13",
+  "archive": "Inquisitor_子非鱼汉化1.1.zip",
+  "created": "2026-11-28",
   "files": [
     {
       "path": "Game/03_zh.dat",
-      "sha256": "3164493a2bb1ce571709d86f3fc438c61ec47b06629436fc90851f448b55b2e2",
-      "size": 40784708
+      "archive_path": "汉化文件/Game/03_zh.dat",
+      "sha256": "40cf7ebe93b5ac0bc8737981b92f852c5ca4b87c89b7b39eec8c0d9a9b97cc13",
+      "size": 40717912
     }
-  ]
+  ],
+  "auxiliary": [
+    {
+      "path": "安装汉化.cmd",
+      "sha256": "3c206734585efe8b754e087e38475db967d18baf5381ae62dc079a1a7b593c06",
+      "size": 200
+    },
+    {
+      "path": "卸载汉化.cmd",
+      "sha256": "2927c49786f2d97b7b95030c0f7c32e72d67e253e55b64e3ee0efc28e65ca9dc",
+      "size": 202
+    },
+    {
+      "path": "汉化工具/patch.ps1",
+      "sha256": "cc2e5d74f26a082d1769035e69730e5d6ff0f86437e59077c444298133dfacfd",
+      "size": 8811
+    },
+    {
+      "path": "汉化工具/config.json",
+      "sha256": "aabe0e417ed17f03c94ee3f4f8816172ef7cafb69cad4576a5d997404fc3c45f",
+      "size": 327
+    }
+  ],
+  "install_mode": "script"
 }

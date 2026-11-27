@@ -22,25 +22,33 @@ NAMES = ['Nosferatu', 'NosferatuS', 'NosferatuSBlack']
 def sha(data):
     return hashlib.sha256(data).hexdigest()
 
+def scaled_fonts(base, percent):
+    if percent not in (125, 150, 200):
+        raise ValueError(f'Unsupported font scale: {percent}')
+    font_paths = {f'local/fnt/{name}.bfi' for name in NAMES}
+    factor = str(percent / 100)
+    scaled = {}
+    for path, size, _, _, data in entries(base):
+        if path not in font_paths:
+            continue
+        before = expand(data, size).decode('utf-16')
+        after = before
+        for axis in ('X', 'Y'):
+            after, count = re.subn(rf'(?m)^TextScale{axis}=1\.0(?=\r?$)', f'TextScale{axis}={factor}', after)
+            assert count == 1
+        assert after.replace('TextScaleX=' + factor, 'TextScaleX=1.0').replace('TextScaleY=' + factor, 'TextScaleY=1.0') == before
+        scaled[path] = after.encode('utf-16')
+    assert set(scaled) == font_paths
+    return scaled
+
 def main():
     candidates = [PROJECT/'Dispatch/Files/Game/03_zh.dat', PROJECT/'Repack/Files/Game/03_zh.dat']
     base = next((p for p in candidates if p.exists() and sha(p.read_bytes()) == BASE_SHA), None)
     if base is None:
         raise SystemExit('Verified Chinese v1.0 payload not found.')
-    fonts = {n:expand(d,s) for n,s,_,_,d in entries(base) if n.startswith('local/fnt/')}
     options = []
     for percent in [125,150,200]:
-        factor = str(percent/100)
-        scaled = {}
-        for name in NAMES:
-            path = f'local/fnt/{name}.bfi'
-            before = fonts[path].decode('utf-16')
-            after = before
-            for axis in ['X','Y']:
-                after,n = re.subn(rf'(?m)^TextScale{axis}=1\.0(?=\r?$)', f'TextScale{axis}={factor}',after)
-                assert n == 1
-            assert after.replace('TextScaleX='+factor,'TextScaleX=1.0').replace('TextScaleY='+factor,'TextScaleY=1.0') == before
-            scaled[path] = after.encode('utf-16')
+        scaled = scaled_fonts(base, percent)
         payload = HERE/f'Files/Payload/font{percent}.bin'
         hashes = pack(scaled,payload)
         (HERE/'verification').mkdir(exist_ok=True)

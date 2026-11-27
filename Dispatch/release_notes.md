@@ -1,15 +1,41 @@
-# 《Inquisitor》子非鱼AI汉化补丁 v1.0
+![审判官 子非鱼汉化](https://raw.githubusercontent.com/zfyu222/inquisitor-hanhua/89170ef501ad32ac9a8565ee01fff7b8e3b420dc/Dispatch/Artwork/title.png)
 
-适用于 Steam Windows 英语版 Build 6307888（本地 Changelog 首条 v1.10.18）。
+[子非鱼Ai汉化]《审判官》/《Inquisitor》
+===========================
 
-退出游戏后，将 ZIP 中的 `Game` 文件夹合并到包含 `Game` 子目录的游戏安装根目录，最终文件为 `Inquisitor/Game/03_zh.dat`。已有同名文件请先备份到游戏目录之外。卸载时退出游戏并删除新增的 `Game/03_zh.dat`，或恢复安装前的同名文件。无需额外 Mod 加载器。
+Steam商店: https://store.steampowered.com/app/241620/
 
-覆盖 24,074 条去重文本、61,204 处资源位置，补充中文字库和 90 份菜单图片。部分装饰性图片文字仍为英语。AI 译文未经过全文逐句人工精校，请适当降低预期。
+下载与反馈
+下载地址:https://github.com/zfyu222/inquisitor-hanhua/releases/
+或者网盘链接: 百度网盘 https://pan.baidu.com/s/5Bhn9DwJZxezx8hSvqNkHUQ
+请订阅github地址或者网盘地址，以便在补丁更新时获得通知
+有问题请反馈至 GitHub Issues
+https://github.com/zfyu222/inquisitor-hanhua/issues
 
-补丁资源独立解包及 ZIP 哈希校验通过；已确认中文菜单、序章正文和字形/标点修复。按用户要求直接发布，对话、任务、物品、存读档及全流程未完整测试。
+游戏介绍
+一款黑暗奇幻题材的等距视角动作角色扮演游戏。玩家可选择圣骑士、牧师或盗贼，通过即时战斗获取装备、培养技能，也要搜集线索、询问人物、调查异端并作出审判。
 
-请阅读压缩包中的 `补丁说明.txt`，使用 `SHA256SUMS.txt` 校验载荷。问题请提交至本仓库 Issues，并附游戏版本、安装步骤及截图。
+安装汉化
+将补丁解压到包含 Game 文件夹的游戏根目录，双击“安装汉化.cmd”，再从 Steam 启动游戏。
 
-补丁后续可能会更新，建议关注或订阅本项目的 GitHub 仓库 / Releases，或收藏、订阅网盘发布渠道，及时获取新版补丁。
+补丁升级
+将新版覆盖解压到游戏根目录后，双击“安装汉化.cmd”。
 
-v1.0：首次发布。
+卸载汉化
+双击“卸载汉化.cmd”。
+
+适用版本
+Steam 英语版 Build 6307888
+Steam / Windows
+
+汉化内容
+简体中文覆盖界面、剧情对话、任务、物品、技能说明、人物姓名及部分菜单图片。
+
+说明
+本补丁使用 AI 辅助翻译，请适当降低预期。
+
+发布日期：2026-11-28
+
+更新日志
+- v1.0（2026-10-13）：首次发布。
+- v1.1（2026-11-28）：润色现有中文文本，独立复审 5,126 条改动，改善对话、任务和界面表述，并新增安装和卸载脚本。

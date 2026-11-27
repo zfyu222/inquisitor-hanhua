@@ -1,9 +1,21 @@
 {
-  "archive": "Inquisitor_子非鱼汉化1.0.zip",
-  "size": 4355238,
-  "sha256": "db09066da87d3c63d13d85bc18975fd453e3942a4de79589793c99578fffd03e",
-  "payload_sha256": "3164493a2bb1ce571709d86f3fc438c61ec47b06629436fc90851f448b55b2e2",
-  "zip_crc_and_extracted_hashes": "passed",
-  "gameplay_testing": "User requested release without further gameplay testing.",
-  "documentation_revision": "Removed window/display settings advice; localization payload unchanged."
+  "version": "1.1",
+  "archive": "Inquisitor_子非鱼汉化1.1.zip",
+  "bytes": 4335773,
+  "sha256": "32166f87fa3dbb452f0b69d7055a47c8d41aa11e43660d39b57e23f33e93df6f",
+  "payload": [
+    {
+      "path": "Game/03_zh.dat",
+      "archive_path": "汉化文件/Game/03_zh.dat",
+      "sha256": "40cf7ebe93b5ac0bc8737981b92f852c5ca4b87c89b7b39eec8c0d9a9b97cc13",
+      "size": 40717912
+    }
+  ],
+  "zip_and_manifest": "passed",
+  "isolated_install": {
+    "全新 安装": "passed",
+    "v1.0 升级": "passed",
+    "损坏载荷": "passed",
+    "CMD安装和卸载入口": "passed"
+  }
 }

@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-27",
+  "steam_build": "6307888",
+  "translation_sha256": "0410a4e513dc9e49e376e0b5d0967a45eb1582ccb92e79d6c13a59c321a3db89",
+  "translated_locations": 61204,
+  "resources_changed": 622,
+  "main_archive": {
+    "target": "Game/03_zh.dat",
+    "sha256": "40cf7ebe93b5ac0bc8737981b92f852c5ca4b87c89b7b39eec8c0d9a9b97cc13",
+    "project_and_quickbms_verified": 849
+  },
+  "font_overlay": {
+    "target": "Game/04_enhancement_font.dat",
+    "sha256": "45db7dd37d3e7d6ecbbf6c24ef17e789bf0fab09e3ef954a267e2047e02449ef",
+    "scale_percent": 200,
+    "project_and_quickbms_verified": 3
+  },
+  "menu_resources_verified": 90,
+  "isolated_install": "passed",
+  "local_install_sha256": "passed",
+  "original_files_and_settings_sha256": "passed",
+  "runtime_verification": "pending_user_test",
+  "local_font_overlay_uninstall": {
+    "date": "2026-11-28",
+    "user_observation": "实测未观察到 200% 字体效果",
+    "overlay_removed": true,
+    "main_archive_sha256_unchanged": true,
+    "backup": "backups/font_uninstall_20261128_002920/04_enhancement_font.dat"
+  }
+}
